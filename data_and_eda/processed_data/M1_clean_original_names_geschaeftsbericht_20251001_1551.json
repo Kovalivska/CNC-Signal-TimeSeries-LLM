@@ -1,0 +1,49 @@
+{
+  "machine_name": "M1_clean_original_names",
+  "report_date": "2025-10-01T15:44:09.879090",
+  "analysis_period": {
+    "start": "2025-08-12T10:59:10.339854080",
+    "end": "2025-08-15T10:59:06.601264896",
+    "duration_hours": 71.99896150277777
+  },
+  "data_quality": {
+    "total_records": 113855,
+    "completeness_percentage": 100.0
+  },
+  "results": {
+    "cycle_analysis": {
+      "available": true,
+      "mean_minutes": 20.655105069696976,
+      "cycles_per_hour": 0.7659232102869358,
+      "consistency_cv": 1.7119391266706883,
+      "score": 4
+    },
+    "setup_analysis": {
+      "available": true,
+      "mean_minutes": 17.096772941666664,
+      "setups_per_day": 1.3333525650407645,
+      "efficiency_rating": "Akzeptabel",
+      "score": 6
+    },
+    "dependency_analysis": {
+      "available": true,
+      "total_correlations": 0,
+      "strong_correlations": 0,
+      "score": 2
+    }
+  },
+  "overall_assessment": {
+    "score": 12,
+    "max_score": 30,
+    "percentage": 40.0,
+    "rating": "VERBESSERUNGSBEDÜRFTIG",
+    "recommendation": "Gezielte Optimierungsmaßnahmen implementieren"
+  },
+  "action_items": [
+    "🎯 PRIORITÄT 1: Zykluszeit-Konsistenz verbessern - Prozessstabilität untersuchen",
+    "⚡ Produktionsrate analysieren - Möglichkeit zur Taktzeit-Optimierung prüfen",
+    "🔧 Rüstzeit-Optimierung: Rüstprozesse standardisieren und dokumentieren",
+    "🟡 Produktivität verbessern - Maschinenauslastung optimieren"
+  ],
+  "next_analysis_date": "2025-10-08T15:44:09.879090"
+}

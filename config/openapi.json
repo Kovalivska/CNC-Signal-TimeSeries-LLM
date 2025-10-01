@@ -1,0 +1,832 @@
+openapi: 3.0.3
+info:
+  title: "IONOS Cloud - OpenAI compatible AI Model Hub API"
+  version: 1.0.0
+  description: |
+    # IONOS Cloud AI Model Hub OpenAI compatible API
+    Please note that this API is not affiliated with OpenAI
+    and is not endorsed by OpenAI in any way.
+  contact:
+    name: IONOS Cloud Support
+    url: https://docs.ionos.com/support/general-information/contact-information
+    email: support@cloud.ionos.com
+tags:
+  - name: OpenAI Compatible Endpoints
+    description: Endpoints compatible with OpenAI's API specification
+externalDocs:
+  description: IONOS Cloud - AI Model Hub - Documentation
+  url: https://docs.ionos.com/cloud/ai/ai-model-hub
+
+servers:
+  - url: https://openai.inference.de-txl.ionos.com
+    description: Berlin
+security:
+  - tokenAuth: []
+
+paths:
+  /v1/chat/completions:
+    post:
+      operationId: openaiCompatChatCompletionsPost
+      summary: Create Chat Completions
+      description: |
+        Create Chat Completions by calling an available model in a format that is compatible with the OpenAI API.
+        Supports both text-only and multimodal (text + images) inputs for compatible models.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ChatCompletionRequest"
+            examples:
+              Llama-Models-Example:
+                value:
+                  model: meta-llama/Llama-3.3-70B-Instruct
+                  messages:
+                    - role: system
+                      content: You are a helpful assistant.
+                    - role: user
+                      content: Please say hello.
+                  temperature: 0.7
+                  top_p: 0.9
+                  "n": 1
+                  stream: false
+                  stop:
+                    - "\n"
+                  max_tokens: 1000
+                  presence_penalty: 0
+                  frequency_penalty: 0
+                  logit_bias: {}
+                  user: user-123
+              Mistral-Models-Example:
+                value:
+                  model: mistralai/Mistral-Nemo-Instruct-2407
+                  messages:
+                    - role: user
+                      content: Please say hello.
+                  temperature: 0.7
+                  top_p: 0.9
+                  "n": 1
+                  stream: false
+                  stop:
+                    - "\n"
+                  max_tokens: 1000
+                  presence_penalty: 0
+                  frequency_penalty: 0
+                  logit_bias: {}
+                  user: user-123
+              Vision-Model-Example:
+                value:
+                  model: mistralai/Mistral-Small-24B-Instruct
+                  messages:
+                    - role: user
+                      content:
+                        - type: text
+                          text: "What's in this image?"
+                        - type: image_url
+                          image_url:
+                            url: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ..."
+                  temperature: 0.7
+                  max_tokens: 1000
+              Vision-Model-URL-Example:
+                value:
+                  model: mistralai/Mistral-Small-24B-Instruct
+                  messages:
+                    - role: user
+                      content:
+                        - type: text
+                          text: "What do you see in this image?"
+                        - type: image_url
+                          image_url:
+                            url: "https://www.ionos.com/favicon.ico?v2"
+                            detail: auto
+                  temperature: 0.7
+                  max_tokens: 1000
+              Structured-Outputs-Example:
+                value:
+                  model: meta-llama/Llama-3.3-70B-Instruct
+                  messages:
+                    - role: user
+                      content: Extract the name, age, and occupation from this text - "John Doe is a 30-year-old software engineer from Berlin."
+                  response_format:
+                    type: json_schema
+                    json_schema:
+                      name: person_info
+                      schema:
+                        type: object
+                        properties:
+                          name:
+                            type: string
+                            description: The person's full name
+                          age:
+                            type: integer
+                            description: The person's age in years
+                          occupation:
+                            type: string
+                            description: The person's job title
+                        required: [name, age, occupation]
+                        additionalProperties: false
+                      strict: true
+                  temperature: 0.1
+                  max_completion_tokens: 500
+                  user: user-123
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessfulChatCompletionResponse"
+        "500":
+          description: Server error
+        "400":
+          description: Bad request
+      tags:
+        - OpenAI Compatible Endpoints
+  /v1/completions:
+    post:
+      operationId: openaiCompatCompletionsPost
+      summary: Create Completions
+      description: |
+        Create Completions by calling an available model in a format that is compatible with the OpenAI API
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CompletionRequest"
+            examples:
+              Llama-Models-Example:
+                value:
+                  model: meta-llama/Llama-3.3-70B-Instruct
+                  prompt: Say this is a test
+                  temperature: 0.01
+                  top_p: 0.9
+                  "n": 1
+                  stream: false
+                  stop:
+                    - "\n"
+                  max_tokens: 1000
+                  presence_penalty: 0
+                  frequency_penalty: 0
+                  logit_bias: {}
+                  user: user-123
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessfulCompletionResponse"
+        "500":
+          description: Server error
+        "400":
+          description: Bad request
+      tags:
+        - OpenAI Compatible Endpoints
+  /v1/models:
+    get:
+      operationId: openaiCompatModelsGet
+      summary: Get the entire list of available models
+      description: |
+        Get the entire list of available models in a format that is compatible with the OpenAI API
+      responses:
+        "200":
+          description: Successful operation
+      tags:
+        - OpenAI Compatible Endpoints
+  /v1/images/generations:
+    post:
+      operationId: openaiCompatImagesGenerationsPost
+      summary: Generate an image using a model
+      description: |
+        Generate an image using a model in a format that is compatible with the OpenAI API
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ImageGenerationRequest"
+            examples:
+              StableDiffusion-XL-1.0-Example:
+                value:
+                  model: "stabilityai/stable-diffusion-xl-base-1.0"
+                  prompt: A beautiful sunset over the ocean
+                  n: 1
+                  size: "1024*1024"
+                  response_format: "b64_json"
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ImageGenerationResponse"
+        "500":
+          description: Server error
+        "400":
+          description: Bad request
+      tags:
+        - OpenAI Compatible Endpoints
+  /v1/embeddings:
+      post:
+        operationId: openaiCompatEmbeddingsPost
+        summary: Creates an embedding vector.
+        description: |
+          Creates an embedding vector representing the input text.
+        requestBody:
+          required: true
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EmbeddingRequest"
+              examples:
+                Create embdeddings examples:
+                  value:
+                    input: ["The food was delicious and the waiter."]
+                    model: "intfloat/e5-large-v2"
+
+        responses:
+          "200":
+            description: Successful operation
+            content:
+              application/json:
+                schema:
+                  $ref: "#/components/schemas/EmbeddingResponse"
+          "500":
+            description: Server error
+          "400":
+            description: Bad request
+        tags:
+          - OpenAI Compatible Endpoints
+components:
+  schemas:
+    CompletionRequest:
+      type: object
+      properties:
+        model:
+          type: string
+          description: ID of the model to use
+        prompt:
+          type: string
+          description: The prompt to generate completions from
+        temperature:
+          type: number
+          description: The sampling temperature to be used
+        top_p:
+          type: number
+          description: An alternative to sampling with temperature
+        "n":
+          type: integer
+          description: The number of chat completion choices to generate for
+            each input message
+        stream:
+          type: boolean
+          description: If set to true, it sends partial message deltas
+        stop:
+          type: array
+          items:
+            type: string
+          description: Up to 4 sequences where the API will stop generating
+            further tokens
+        max_tokens:
+          type: integer
+          description: The maximum number of tokens to generate in the chat
+            completion
+        presence_penalty:
+          type: number
+          description:
+            It is used to penalize new tokens based on their existence
+            in the text so far
+        frequency_penalty:
+          type: number
+          description:
+            It is used to penalize new tokens based on their frequency
+            in the text so far
+        logit_bias:
+          type: object
+          description:
+            Used to modify the probability of specific tokens appearing
+            in the completion
+        user:
+          type: string
+          description: A unique identifier representing your end-user
+      required:
+        - model
+        - prompt
+    SuccessfulCompletionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        choices:
+          type: array
+          items:
+            type: object
+            properties:
+              finish_reason:
+                type: string
+              index:
+                type: integer
+              text:
+                type: string
+        created:
+          type: integer
+        object:
+          type: string
+        model:
+          type: string
+        usage:
+          type: object
+          properties:
+            prompt_tokens:
+              type: integer
+            completion_tokens:
+              type: integer
+            total_tokens:
+              type: integer
+    ChatCompletionRequest:
+      type: object
+      properties:
+        model:
+          type: string
+          description: ID of the model to use
+        messages:
+          type: array
+          items:
+            $ref: "#/components/schemas/ChatCompletionMessage"
+        response_format:
+          description: >
+            An object specifying the format that the model must output. Use json_object for JSON mode
+            or json_schema to enforce a specific schema (Structured Outputs). If omitted, default text output is used.
+          oneOf:
+            - $ref: "#/components/schemas/ResponseFormatJSONSchema"
+            - $ref: "#/components/schemas/ResponseFormatJSONObject"
+            - $ref: "#/components/schemas/ResponseFormatText"
+        temperature:
+          type: number
+          description: The sampling temperature to be used
+          default: 1.0
+        top_p:
+          type: number
+          description: An alternative to sampling with temperature
+          default: -1
+        "n":
+          type: integer
+          description: The number of chat completion choices to generate for
+            each input message
+          default: 1
+        stream:
+          default: false
+          type: boolean
+          description: If set to true, it sends partial message deltas
+        stop:
+          type: array
+          items:
+            type: string
+          description: Up to 4 sequences where the API will stop generating
+            further tokens
+        max_tokens:
+          type: integer
+          description: The maximum number of tokens to generate in the chat. This value is now deprecated in favor of max_completion_tokens
+            completion
+          default: 16
+          deprecated: true
+        max_completion_tokens:
+          type: integer
+          description: An upper bound for the number of tokens that can be generated for a completion, including visible output tokens
+          default: 16
+        presence_penalty:
+          type: number
+          description:
+            It is used to penalize new tokens based on their existence
+            in the text so far
+          default: 0.0
+        frequency_penalty:
+          type: number
+          description:
+            It is used to penalize new tokens based on their frequency
+            in the text so far
+          default: 0.0
+        logit_bias:
+          type: object
+          description:
+            Used to modify the probability of specific tokens appearing
+            in the completion
+        user:
+          type: string
+          description: A unique identifier representing your end-user
+        tools:
+            type: array
+            description: >
+              A list of tools the model may call. Currently, only functions are supported as a tool.
+              Use this to provide a list of functions the model may generate JSON inputs for. A max of 128 functions are supported.
+            items:
+              $ref: "#/components/schemas/chatCompletionTool"
+        tool_choice:
+            $ref: "#/components/schemas/chatCompletionToolChoiceOption"
+      required:
+        - model
+        - messages
+    ChatCompletionMessage:
+      type: object
+      description: A message in a chat completion request, supporting both text-only and multimodal content
+      properties:
+        role:
+          type: string
+          description: The role of the message's author
+          enum: [system, user, assistant, tool]
+        content:
+          oneOf:
+            - type: string
+              description: Text content of the message (legacy format)
+            - type: array
+              description: Array of content parts for multimodal messages
+              items:
+                $ref: "#/components/schemas/ChatCompletionContentPart"
+        name:
+          type: string
+          description: The name of the author of the message
+        tool_calls:
+          type: array
+          description: Tool calls generated by the model
+          items:
+            $ref: "#/components/schemas/chatCompletionMessageToolCall"
+        tool_call_id:
+          type: string
+          description: Tool call that this message is responding to
+      required:
+        - role
+        - content
+    ChatCompletionContentPart:
+      oneOf:
+        - $ref: "#/components/schemas/ChatCompletionContentPartText"
+        - $ref: "#/components/schemas/ChatCompletionContentPartImage"
+      discriminator:
+        propertyName: type
+        mapping:
+          text: "#/components/schemas/ChatCompletionContentPartText"
+          image_url: "#/components/schemas/ChatCompletionContentPartImage"
+    ChatCompletionContentPartText:
+      type: object
+      description: Text content part
+      properties:
+        type:
+          type: string
+          enum: [text]
+          description: The type of the content part
+        text:
+          type: string
+          description: The text content
+      required:
+        - type
+        - text
+    ChatCompletionContentPartImage:
+      type: object
+      description: Image content part
+      properties:
+        type:
+          type: string
+          enum: [image_url]
+          description: The type of the content part
+        image_url:
+          $ref: "#/components/schemas/ChatCompletionContentPartImageImageUrl"
+      required:
+        - type
+        - image_url
+    ChatCompletionContentPartImageImageUrl:
+      type: object
+      description: Image URL or data
+      properties:
+        url:
+          type: string
+          description: |
+            Either a URL of the image or the base64 encoded image data.
+            Supported formats:
+            - URLs: https://example.com/image.jpg
+            - Base64 data URLs: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ...
+        detail:
+          type: string
+          description: |
+            Specifies the detail level of the image. 
+            - "low" uses fewer tokens and is faster
+            - "high" is more detailed but uses more tokens
+            - "auto" lets the model choose
+          enum: [low, high, auto]
+          default: auto
+      required:
+        - url
+    chatCompletionToolChoiceOption:
+      description: |
+        Controls which (if any) tool is called by the model.
+        `none` means the model will not call any tool and instead generates a message.
+        `auto` means the model can pick between generating a message or calling one or more tools.
+        `required` means the model must call one or more tools.
+        Specifying a particular tool via `{"type": "function", "function": {"name": "my_function"}}` forces the model to call that tool.
+        `none` is the default when no tools are present. `auto` is the default if tools are present.
+      oneOf:
+        - type: string
+          description: >
+            `none` means the model will not call any tool and instead generates a message.
+            `auto` means the model can pick between generating a message or calling one or more tools.
+            `required` means the model must call one or more tools.
+          enum:
+            - none
+            - auto
+            - required
+        - $ref: "#/components/schemas/chatCompletionNamedToolChoice"
+    chatCompletionNamedToolChoice:
+      type: object
+      description: Specifies a tool the model should use. Use to force the model to call a specific function.
+      properties:
+        type:
+          type: string
+          enum:
+            - "function"
+          description: The type of the tool. Currently, only `function` is supported.
+        function:
+          type: object
+          properties:
+            name:
+              type: string
+              description: The name of the function to call.
+          required:
+            - name
+      required:
+        - type
+        - function
+
+    chatCompletionTool:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: ["function"]
+          description: The type of the tool. Currently, only `function` is supported.
+        function:
+          $ref: "#/components/schemas/FunctionObject"
+      required:
+        - type
+        - function
+    FunctionObject:
+      type: object
+      properties:
+        description:
+          type: string
+          description: A description of what the function does, used by the model to choose when and how to call the function.
+        name:
+          type: string
+          description: The name of the function to be called. Must be a-z, A-Z, 0-9, or contain underscores and dashes, with a maximum length of 64.
+        parameters:
+          $ref: "#/components/schemas/FunctionParameters"
+      required:
+        - name
+    FunctionParameters:
+      type: object
+      description: "The parameters the functions accepts, described as a JSON Schema object."
+      additionalProperties: true
+    chatCompletionMessageToolCall:
+          type: object
+          properties:
+            id:
+              type: string
+              description: The ID of the tool call.
+            type:
+              $ref: "#/components/schemas/toolCallType"
+            function:
+              type: object
+              description: The function that the model called.
+              properties:
+                name:
+                  type: string
+                  description: The name of the function to call.
+                arguments:
+                  type: string
+                  description: The arguments to call the function with, as generated by the model in JSON format. Note that the model does not always generate valid JSON, and may hallucinate parameters not defined by your function schema. Validate the arguments in your code before calling your function.
+              required:
+                - name
+                - arguments
+          required:
+            - id
+            - type
+            - function
+    toolCallType:
+      type: string
+      enum:
+        - function
+      description: The type of the tool call, in this case `function`.
+    SuccessfulChatCompletionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        choices:
+          type: array
+          items:
+            type: object
+            properties:
+              finish_reason:
+                type: string
+              index:
+                type: integer
+              message:
+                type: object
+                properties:
+                  role:
+                    type: string
+                  content:
+                    type: string
+                  tool_calls:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/chatCompletionMessageToolCall"
+                    readOnly: true
+                  refusal:
+                    type: string
+                    description: Present when the model refuses to answer for safety/policy reasons.
+        created:
+          type: integer
+        object:
+          type: string
+        model:
+          type: string
+        system_fingerprint:
+          type: string
+        usage:
+          type: object
+          properties:
+            prompt_tokens:
+              type: integer
+            completion_tokens:
+              type: integer
+            total_tokens:
+              type: integer
+    ImageGenerationRequest:
+      type: object
+      properties:
+        model:
+          type: string
+          description: ID of the model to use. Please check /v1/models for available models
+        prompt:
+          type: string
+          description: The prompt to generate images from
+        n:
+          type: integer
+          default: 1
+          description: The number of images to generate. Defaults to 1.
+        size:
+          type: string
+          x-extensible-enum: 
+           - "1024*1024"
+           - "1792*1024"
+           - "1024*1792"
+          default: "1024*1024"
+          description: |
+            The size of the image to generate.
+            Defaults to `"1024*1024"`.
+            Must be one of `"1024*1024"`, `"1792*1024"`, or `"1024*1792"`.
+            The maximum supported resolution is `"1792*1024"`
+        response_format:
+          type: string
+          description: The format of the response.
+          default: b64_json
+          enum: [b64_json]
+        user:
+          type: string
+          description: A unique identifier representing your end-user
+      required:
+        - "model"
+        - "prompt"
+    ImageGenerationResponse:
+      type: object
+      properties:
+        created:
+          type: integer
+          description: The Unix timestamp of the image generation
+        data:
+          type: array
+          description: The list of generated images
+          items:
+            type: object
+            properties:
+              url:
+                type: string
+                description: |
+                  The URL of the generated image.
+                  As of right now, this format is not supported
+                default: null
+              b64_json:
+                type: string
+                description: |
+                  The base64 encoded image in JSON format.
+              revised_prompt:
+                type: string
+                description: |
+                  Refined initial text prompt for improved image generation using advanced language model capabilities.
+                  As of right now, this format is not supported
+    EmbeddingRequest:
+      type: object
+      properties:
+        model:
+          type: string
+          description: ID of the model to use. Please check /v1/models for available models
+        input:
+          oneOf:
+            - type: string
+              description: The input text to create an embedding for (single string)
+            - type: array
+              description: The input text to create embeddings for (list of strings)
+              items:
+                type: string
+    EmbeddingResponse:
+      type: object
+      properties:
+        model:
+          type: string
+          description: ID of the model used
+        object:
+          type: string
+          description: The object used to generate the embeddings
+        data:
+          type: array
+          description: The list of generated embeddings
+          items:  
+            $ref:  "#/components/schemas/Embedding" 
+        usage:
+          $ref: "#/components/schemas/EmbeddingUsage"
+    Embedding:
+      type: object
+      properties:
+        index: 
+          type: integer
+          description: The index of the input text
+        object: 
+          type: string
+          description: The object used to generate the embeddings
+        embedding:
+          type: array
+          description: The embedding vector
+          items:
+            type: number
+            format: float
+    EmbeddingUsage: 
+      type: object
+      properties:
+        prompt_tokens:
+          type: integer
+          description: The number of tokens in the input text
+        total_tokens:
+          type: integer
+          description: The total number of tokens used
+    # -------------------------------------------------------------
+    # Structured output response_format schemas (OpenAI compatibility)
+    # -------------------------------------------------------------
+    ResponseFormatText:
+      type: object
+      description: Request normal free-form text output (default behavior).
+      properties:
+        type:
+          type: string
+          enum: [text]
+      required: [type]
+      additionalProperties: false
+    ResponseFormatJSONObject:
+      type: object
+      description: Enable JSON mode; model outputs a single valid JSON object (no schema enforcement).
+      properties:
+        type:
+          type: string
+          enum: [json_object]
+      required: [type]
+      additionalProperties: false
+    ResponseFormatJSONSchema:
+      type: object
+      description: Enable Structured Outputs; model must produce JSON adhering to supplied schema.
+      properties:
+        type:
+          type: string
+          enum: [json_schema]
+        json_schema:
+          type: object
+          properties:
+            name:
+              type: string
+              description: Identifier for the schema definition.
+            schema:
+              type: object
+              description: Root JSON Schema object (must be object with additionalProperties=false).
+            strict:
+              type: boolean
+              description: If true, instruct model to strictly follow schema.
+              default: true
+          required: [name, schema]
+          additionalProperties: false
+      required: [type, json_schema]
+      additionalProperties: false
+  securitySchemes:
+    tokenAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description:
+        Please provide header value as 'Bearer <token>' and don't forget
+        to add 'Bearer' HTTP Authorization Scheme before the token.

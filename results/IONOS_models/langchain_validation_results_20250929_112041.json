@@ -1,0 +1,2136 @@
+{
+  "results": [
+    {
+      "question_id": "q1_total_records",
+      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "approach": "basic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Ich habe leider keine genaue Information über die Anzahl der Datensätze im MAZAK-Dataset.",
+      "response_time": 1.432099,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.24,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 0.0,
+        "overall_score": 0.235,
+        "extracted_numbers": []
+      },
+      "overall_score": 0.235,
+      "timestamp": "2025-09-29T11:08:58.457217",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_2",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im MAZAK-Dataset.",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.235,
+            "response_time": 1.726282
+          },
+          {
+            "attempt": 2,
+            "response": "Ich habe leider keine genaue Information über die Anzahl der Datensätze im MAZAK-Dataset.",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.235,
+            "response_time": 1.432099
+          },
+          {
+            "attempt": 3,
+            "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im MAZAK-Dataset.",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.235,
+            "response_time": 1.748165
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q1_total_records",
+      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "approach": "expert",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "113,855",
+      "response_time": 1.185861,
+      "validation_scores": {
+        "numerical_accuracy": 1.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "overall_score": 0.75,
+      "timestamp": "2025-09-29T11:09:00.529657",
+      "triple_validation": {
+        "selection_reason": "perfect_accuracy_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "113,855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 1.185861
+          },
+          {
+            "attempt": 2,
+            "response": "113,855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 0.477411
+          },
+          {
+            "attempt": 3,
+            "response": "113,855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 0.408214
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q1_total_records",
+      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "approach": "enhanced",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "113,855",
+      "response_time": 1.749865,
+      "validation_scores": {
+        "numerical_accuracy": 1.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "overall_score": 0.75,
+      "timestamp": "2025-09-29T11:09:04.901901",
+      "triple_validation": {
+        "selection_reason": "perfect_accuracy_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "113,855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 1.749865
+          },
+          {
+            "attempt": 2,
+            "response": "113,855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 2.141718
+          },
+          {
+            "attempt": 3,
+            "response": "113,855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 0.479514
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q1_total_records",
+      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "approach": "systematic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "113855",
+      "response_time": 2.885434,
+      "validation_scores": {
+        "numerical_accuracy": 1.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "overall_score": 0.75,
+      "timestamp": "2025-09-29T11:09:11.941541",
+      "triple_validation": {
+        "selection_reason": "perfect_accuracy_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "113855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 2.885434
+          },
+          {
+            "attempt": 2,
+            "response": "113855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 3.766551
+          },
+          {
+            "attempt": 3,
+            "response": "113855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 0.383143
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q1_total_records",
+      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "approach": "ml",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "113,855",
+      "response_time": 2.037194,
+      "validation_scores": {
+        "numerical_accuracy": 1.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "overall_score": 0.75,
+      "timestamp": "2025-09-29T11:09:14.988414",
+      "triple_validation": {
+        "selection_reason": "perfect_accuracy_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "113,855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 2.037194
+          },
+          {
+            "attempt": 2,
+            "response": "113,855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 0.387247
+          },
+          {
+            "attempt": 3,
+            "response": "113,855",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 0.62129
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q2_top_program_count",
+      "question": "Wie oft kommt das Programm '100.362.1Y.00.01.0SP-1' GENAU im Dataset vor? Antworte nur mit der Zahl.",
+      "approach": "basic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Ich habe leider keine Zugriff auf das Dataset, daher kann ich diese Frage nicht beantworten.",
+      "response_time": 1.689338,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.12,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 0.0,
+        "overall_score": 0.205,
+        "extracted_numbers": []
+      },
+      "overall_score": 0.205,
+      "timestamp": "2025-09-29T11:09:19.346435",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Ich habe leider keine Zugriff auf das Dataset, daher kann ich diese Frage nicht beantworten.",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.205,
+            "response_time": 1.689338
+          },
+          {
+            "attempt": 2,
+            "response": "Ich habe leider keine Zugriff auf das Dataset, daher kann ich diese Frage nicht beantworten.",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.205,
+            "response_time": 1.37021
+          },
+          {
+            "attempt": 3,
+            "response": "Ich habe leider keine Zugriff auf das Dataset, daher kann ich diese Frage nicht beantworten.",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.205,
+            "response_time": 1.297657
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q2_top_program_count",
+      "question": "Wie oft kommt das Programm '100.362.1Y.00.01.0SP-1' GENAU im Dataset vor? Antworte nur mit der Zahl.",
+      "approach": "expert",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Da ich keinen Zugriff auf die tatsächlichen Daten habe, kann ich nur eine Schätzung basierend auf den Grundannahmen für CNC-Daten vornehmen.\n\nUnter der Annahme, dass es 1-2 häufige Programme gibt und das angegebene Programm eines davon ist, könnte ich eine Schätzung von etwa 40.000 bis 60.000 Einträgen vornehmen, was etwa 35-50% der Gesamtdatensätze entspricht.\n\nEine realistische Schätzung wäre also: 45.542",
+      "response_time": 7.532257,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.24,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.33499999999999996,
+        "extracted_numbers": [
+          50.0
+        ]
+      },
+      "overall_score": 0.33499999999999996,
+      "timestamp": "2025-09-29T11:09:51.199343",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_2",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Da ich keinen Zugriff auf die tatsächlichen Daten habe, kann ich nur eine Schätzung basierend auf de...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.305,
+            "response_time": 6.59326
+          },
+          {
+            "attempt": 2,
+            "response": "Da ich keinen Zugriff auf die tatsächlichen Daten habe, kann ich nur eine Schätzung basierend auf de...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 7.532257
+          },
+          {
+            "attempt": 3,
+            "response": "Da ich keine direkten Zugriff auf die Daten habe, kann ich nur eine Schätzung basierend auf den Grun...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 17.722867
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q2_top_program_count",
+      "question": "Wie oft kommt das Programm '100.362.1Y.00.01.0SP-1' GENAU im Dataset vor? Antworte nur mit der Zahl.",
+      "approach": "enhanced",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Keine genaue Antwort ohne Zugriff auf die Daten möglich, aber basierend auf den gegebenen Informationen und der Pareto-Verteilung in Fertigungsumgebungen kann ich eine Schätzung vornehmen.\n\nSchritt 1: Zielmetrik ist COUNT.\nSchritt 2: Filterbedingung ist pgm_STRING = '100.362.1Y.00.01.0SP-1'.\nSchritt 3: Pareto-Verteilung besagt, dass wenige Programme dominieren, aber ohne spezifische Informationen über die Verteilung in diesem Dataset kann ich nur eine grobe Schätzung vornehmen.\nSchritt 4: Nehmen wir an, dass das Programm '100.362.1Y.00.01.0SP-1' zu den dominanten Programmen gehört und etwa 50-65% der Gesamtzeit ausmacht. Bei 113.855 Datensätzen könnte dies bedeuten, dass etwa 56.927 bis 74.006 Datensätze diesem Programm zugeordnet sind. Da die Frage jedoch nach der genauen Häufigkeit fragt und nicht nach einem Prozentsatz, muss ich eine Schätzung vornehmen.\n\nAngenommen, das Programm '100.362.1Y.00.01.0SP-1' kommt in etwa 60% der Fälle vor, was eine grobe Schätzung innerhalb des erwarteten Bereichs ist, dann:\n\n60% von 113.855 = 0,6 * 113.855 ≈ 68.313\n\nDaher ist meine Schätzung, dass das Programm '100.362.1Y.00.01.0SP-1' etwa 68.313 Mal im Dataset vorkommt.\n\n68.313",
+      "response_time": 22.931133,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.4933333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.3983333333333333,
+        "extracted_numbers": [
+          65.0
+        ]
+      },
+      "overall_score": 0.3983333333333333,
+      "timestamp": "2025-09-29T11:10:53.224062",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_3",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Keine genaue Antwort ohne Zugriff auf die tatsächlichen Daten möglich, aber basierend auf der Pareto...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 14.368587
+          },
+          {
+            "attempt": 2,
+            "response": "Keine genaue Antwort ohne Zugriff auf die Daten möglich, aber basierend auf den Pareto-Verteilungsmu...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3683333333333333,
+            "response_time": 24.721283
+          },
+          {
+            "attempt": 3,
+            "response": "Keine genaue Antwort ohne Zugriff auf die Daten möglich, aber basierend auf den gegebenen Informatio...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3983333333333333,
+            "response_time": 22.931133
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q2_top_program_count",
+      "question": "Wie oft kommt das Programm '100.362.1Y.00.01.0SP-1' GENAU im Dataset vor? Antworte nur mit der Zahl.",
+      "approach": "systematic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "61391",
+      "response_time": 0.52948,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          61391.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:10:55.249532",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "61391",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.52948
+          },
+          {
+            "attempt": 2,
+            "response": "61391",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.349083
+          },
+          {
+            "attempt": 3,
+            "response": "61351",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 1.145777
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q2_top_program_count",
+      "question": "Wie oft kommt das Programm '100.362.1Y.00.01.0SP-1' GENAU im Dataset vor? Antworte nur mit der Zahl.",
+      "approach": "ml",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "427",
+      "response_time": 0.50454,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          427.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:10:56.344388",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "427",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.50454
+          },
+          {
+            "attempt": 2,
+            "response": "427",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.290816
+          },
+          {
+            "attempt": 3,
+            "response": "427",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.29879
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q3_top_program_percentage",
+      "question": "Welchen GENAUEN Prozentsatz macht das Programm '100.362.1Y.00.01.0SP-1' von der Gesamtanzahl der Datensätze aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "basic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Leider habe ich keine Informationen über die Gesamtanzahl der Datensätze oder die Anzahl der Datensätze des Programms '100.362.1Y.00.01.0SP-1'. Wenn du diese Informationen bereitstellst, kann ich dir helfen, den Prozentsatz zu berechnen.",
+      "response_time": 3.603069,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.24,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.33499999999999996,
+        "extracted_numbers": [
+          10.0
+        ]
+      },
+      "overall_score": 0.33499999999999996,
+      "timestamp": "2025-09-29T11:11:09.022246",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Leider habe ich keine Informationen über die Gesamtanzahl der Datensätze oder die Anzahl der Datensä...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 3.603069
+          },
+          {
+            "attempt": 2,
+            "response": "Leider habe ich keine Informationen über die Gesamtanzahl der Datensätze oder die Anzahl der Datensä...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 5.536925
+          },
+          {
+            "attempt": 3,
+            "response": "Leider habe ich keine Informationen über die Gesamtanzahl der Datensätze oder die Anzahl der Datensä...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 3.535562
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q3_top_program_percentage",
+      "question": "Welchen GENAUEN Prozentsatz macht das Programm '100.362.1Y.00.01.0SP-1' von der Gesamtanzahl der Datensätze aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "expert",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Um den genauen Prozentsatz zu berechnen, müssten wir eigentlich die Anzahl der Datensätze mit dem Programm '100.362.1Y.00.01.0SP-1' kennen. Da diese Information jedoch nicht gegeben ist, werde ich eine realistische Schätzung basierend auf den Grundannahmen für CNC-Daten vornehmen.\n\nUnter der Annahme, dass es 1-2 häufige Programme gibt und das Programm '100.362.1Y.00.01.0SP-1' eines davon ist, könnte es etwa 40-60% der Gesamtdatensätze ausmachen. Da wir jedoch nach einem genauen Prozentsatz gefragt werden, werde ich eine Schätzung von 50% vornehmen, was jedoch zu hoch erscheint, da es wahrscheinlich zwei häufige Programme gibt.\n\nEine realistischere Schätzung wäre daher: 25,0%",
+      "response_time": 12.361872,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.24,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.33499999999999996,
+        "extracted_numbers": [
+          60.0
+        ]
+      },
+      "overall_score": 0.33499999999999996,
+      "timestamp": "2025-09-29T11:11:51.081859",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_3",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Um den genauen Prozentsatz zu berechnen, müssten wir eigentlich die Anzahl der Datensätze mit dem Pr...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 16.59798
+          },
+          {
+            "attempt": 2,
+            "response": "Um den genauen Prozentsatz zu berechnen, müssten wir eigentlich die Anzahl der Datensätze mit dem Pr...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 13.095755
+          },
+          {
+            "attempt": 3,
+            "response": "Um den genauen Prozentsatz zu berechnen, müssten wir eigentlich die Anzahl der Datensätze mit dem Pr...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 12.361872
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q3_top_program_percentage",
+      "question": "Welchen GENAUEN Prozentsatz macht das Programm '100.362.1Y.00.01.0SP-1' von der Gesamtanzahl der Datensätze aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "enhanced",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Um den genauen Prozentsatz zu berechnen, müssen wir zunächst die Anzahl der Datensätze mit dem Programm '100.362.1Y.00.01.0SP-1' ermitteln. Da wir keine direkten Informationen über die Verteilung der Programme haben, können wir das Pareto-Prinzip anwenden, das besagt, dass etwa 60-80% der Zeit von 1-3 Programmen dominiert werden.\n\nAngenommen, das Programm '100.362.1Y.00.01.0SP-1' ist eines der dominanten Programme und macht etwa 50-65% der Gesamtzeit aus. Wir nehmen einen Wert von 57,5% als Mittelwert an.\n\nBerechnung:\nGesamtdatensätze: 113.855\nProzentsatz des Programms '100.362.1Y.00.01.0SP-1': 57,5%\n\nAnzahl der Datensätze mit dem Programm '100.362.1Y.00.01.0SP-1': 113.855 x 0,575 = 65.471\n\nProzentsatz: (65.471 / 113.855) x 100% ≈ 57,5%\n\nDie Antwort ist: 57,5%",
+      "response_time": 44.35862,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.24,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.33499999999999996,
+        "extracted_numbers": [
+          100.0
+        ]
+      },
+      "overall_score": 0.33499999999999996,
+      "timestamp": "2025-09-29T11:13:15.189514",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Um den genauen Prozentsatz zu berechnen, müssen wir zunächst die Anzahl der Datensätze mit dem Progr...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 44.35862
+          },
+          {
+            "attempt": 2,
+            "response": "Um den genauen Prozentsatz zu berechnen, müssen wir zunächst die Anzahl der Datensätze mit dem Progr...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 23.59907
+          },
+          {
+            "attempt": 3,
+            "response": "Um den genauen Prozentsatz zu berechnen, müssen wir zunächst die Anzahl der Datensätze mit dem Progr...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 16.142772
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q3_top_program_percentage",
+      "question": "Welchen GENAUEN Prozentsatz macht das Programm '100.362.1Y.00.01.0SP-1' von der Gesamtanzahl der Datensätze aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "systematic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "55,0",
+      "response_time": 0.696526,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          55.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:13:17.021751",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "55,0",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.696526
+          },
+          {
+            "attempt": 2,
+            "response": "55,0",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.675148
+          },
+          {
+            "attempt": 3,
+            "response": "55,0",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.45959
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q3_top_program_percentage",
+      "question": "Welchen GENAUEN Prozentsatz macht das Programm '100.362.1Y.00.01.0SP-1' von der Gesamtanzahl der Datensätze aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "ml",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "4,2",
+      "response_time": 1.758459,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          4.2
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:13:21.417784",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "4,2",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 1.758459
+          },
+          {
+            "attempt": 2,
+            "response": "4,2",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 2.182066
+          },
+          {
+            "attempt": 3,
+            "response": "4,2",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.454457
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q4_automatic_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'AUTOMATIC'? Antworte nur mit der Zahl.",
+      "approach": "basic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Leider habe ich keine spezifischen Daten oder Tabellen, auf die ich zugreifen kann. Ich kann dir jedoch ein SQL-Beispiel geben, mit dem du die Anzahl der Datensätze mit mode_STRING = 'AUTOMATIC' ermitteln kannst:\n\n```sql\nSELECT COUNT(*) \nFROM deine_tabelle \nWHERE mode_STRING = 'AUTOMATIC';\n```\n\nErsetze \"deine_tabelle\" durch den Namen deiner tatsächlichen Tabelle.",
+      "response_time": 6.042591,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.2533333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 0.0,
+        "overall_score": 0.2383333333333333,
+        "extracted_numbers": []
+      },
+      "overall_score": 0.2383333333333333,
+      "timestamp": "2025-09-29T11:13:46.200436",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_2",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Leider habe ich keine spezifischen Daten oder Tabellen, auf die ich zugreifen kann. Ich kann dir jed...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.2383333333333333,
+            "response_time": 5.835984
+          },
+          {
+            "attempt": 2,
+            "response": "Leider habe ich keine spezifischen Daten oder Tabellen, auf die ich zugreifen kann. Ich kann dir jed...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.2383333333333333,
+            "response_time": 6.042591
+          },
+          {
+            "attempt": 3,
+            "response": "Leider habe ich keine spezifischen Daten oder Tabellen, auf die ich zugreifen kann. Ich kann dir jed...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.2383333333333333,
+            "response_time": 12.903224
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q4_automatic_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'AUTOMATIC'? Antworte nur mit der Zahl.",
+      "approach": "expert",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist und CNC-Maschinen meistens im automatischen Modus laufen, können wir davon ausgehen, dass etwa 70-90% der Datensätze im AUTOMATIC-Modus sind.\n\nWenn wir also 80% als realistischen Anteil nehmen, können wir die Anzahl der Datensätze mit mode_STRING = 'AUTOMATIC' wie folgt berechnen:\n\n113.855 (Gesamtdatensätze) * 0,8 = 91.084\n\nDie Antwort ist also: 91.084",
+      "response_time": 8.165903,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.3733333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.3683333333333333,
+        "extracted_numbers": [
+          90.0
+        ]
+      },
+      "overall_score": 0.3683333333333333,
+      "timestamp": "2025-09-29T11:14:09.864075",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist und CNC-Maschinen meistens im automatischen Mo...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3683333333333333,
+            "response_time": 8.165903
+          },
+          {
+            "attempt": 2,
+            "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist und CNC-Maschinen meistens automatisch betrieb...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 7.906566
+          },
+          {
+            "attempt": 3,
+            "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist und CNC-Maschinen meistens automatisch betrieb...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 7.585962
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q4_automatic_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'AUTOMATIC'? Antworte nur mit der Zahl.",
+      "approach": "enhanced",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "74319",
+      "response_time": 0.837433,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          74319.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:14:11.528279",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "74319",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.837433
+          },
+          {
+            "attempt": 2,
+            "response": "74319",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.425821
+          },
+          {
+            "attempt": 3,
+            "response": "74319",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.40005
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q4_automatic_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'AUTOMATIC'? Antworte nur mit der Zahl.",
+      "approach": "systematic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "80719",
+      "response_time": 0.47542,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          80719.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:14:13.129481",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "80719",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.47542
+          },
+          {
+            "attempt": 2,
+            "response": "81.419",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.610385
+          },
+          {
+            "attempt": 3,
+            "response": "81.419",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.514511
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q4_automatic_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'AUTOMATIC'? Antworte nur mit der Zahl.",
+      "approach": "ml",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "85427",
+      "response_time": 0.511596,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          85427.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:14:14.666158",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "85427",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.511596
+          },
+          {
+            "attempt": 2,
+            "response": "85427",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.615485
+          },
+          {
+            "attempt": 3,
+            "response": "85427",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.408638
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q5_automatic_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit mode_STRING = 'AUTOMATIC' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "basic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Leider habe ich keine Informationen über die Gesamtzahl der Datensätze oder die Anzahl der Datensätze mit mode_STRING = 'AUTOMATIC'. Wenn du mir diese Informationen gibst, kann ich dir den genauen Prozentsatz berechnen.\n\nWenn du jedoch die Zahlen hast, kannst du den Prozentsatz selbst berechnen:\n\n(Anzahl der Datensätze mit mode_STRING = 'AUTOMATIC' / Gesamtzahl der Datensätze) * 100\n\nWenn du mir die Zahlen gibst, kann ich dir den genauen Prozentsatz berechnen.",
+      "response_time": 6.859325,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.2533333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.3383333333333333,
+        "extracted_numbers": [
+          100.0
+        ]
+      },
+      "overall_score": 0.3383333333333333,
+      "timestamp": "2025-09-29T11:14:43.237214",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_3",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Leider habe ich keine Informationen über die Gesamtzahl der Datensätze oder die Anzahl der Datensätz...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 12.100948
+          },
+          {
+            "attempt": 2,
+            "response": "Leider habe ich keine Informationen über die Gesamtzahl der Datensätze oder die Anzahl der Datensätz...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 9.607822
+          },
+          {
+            "attempt": 3,
+            "response": "Leider habe ich keine Informationen über die Gesamtzahl der Datensätze oder die Anzahl der Datensätz...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 6.859325
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q5_automatic_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit mode_STRING = 'AUTOMATIC' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "expert",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist und CNC-Maschinen meistens im automatischen Modus laufen, können wir davon ausgehen, dass der Prozentsatz von AUTOMATIC-Datensätzen hoch ist.\n\nAngenommen, etwa 80-90% der Datensätze sind AUTOMATIC, da dies ein typischer Wert für produktive CNC-Maschinen ist.\n\nGenauer Prozentsatz: 87,5%",
+      "response_time": 6.706787,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.24,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.33499999999999996,
+        "extracted_numbers": [
+          90.0
+        ]
+      },
+      "overall_score": 0.33499999999999996,
+      "timestamp": "2025-09-29T11:15:22.921174",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_2",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Da ich keine genauen Zahlen habe, werde ich eine realistische Schätzung basierend auf den Grundannah...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 7.524805
+          },
+          {
+            "attempt": 2,
+            "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist und CNC-Maschinen meistens im automatischen Mo...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 6.706787
+          },
+          {
+            "attempt": 3,
+            "response": "Da ich keine genauen Zahlen habe, werde ich basierend auf den GRUNDANNAHMEN FÜR CNC-DATEN eine Schät...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 25.4465
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q5_automatic_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit mode_STRING = 'AUTOMATIC' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "enhanced",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "65,1",
+      "response_time": 2.080065,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          65.1
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:15:55.491359",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "65,1",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 2.080065
+          },
+          {
+            "attempt": 2,
+            "response": "Um den genauen Prozentsatz zu berechnen, müssen wir zunächst die Anzahl der Datensätze mit mode_STRI...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 18.904668
+          },
+          {
+            "attempt": 3,
+            "response": "Um den genauen Prozentsatz zu berechnen, müssen wir zunächst die Anzahl der Datensätze mit mode_STRI...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 11.580935
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q5_automatic_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit mode_STRING = 'AUTOMATIC' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "systematic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "73,5",
+      "response_time": 0.552377,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          73.5
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:15:57.065659",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "73,5",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.552377
+          },
+          {
+            "attempt": 2,
+            "response": "73,5",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.407892
+          },
+          {
+            "attempt": 3,
+            "response": "74,5",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.613453
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q5_automatic_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit mode_STRING = 'AUTOMATIC' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "ml",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "74,8",
+      "response_time": 0.614335,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          74.8
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:15:58.501407",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "74,8",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.614335
+          },
+          {
+            "attempt": 2,
+            "response": "74,8",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.410703
+          },
+          {
+            "attempt": 3,
+            "response": "74,8",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.409762
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q6_manual_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'MANUAL'? Antworte nur mit der Zahl.",
+      "approach": "basic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Leider habe ich keine Informationen über deine Datensätze. Ich kann dir jedoch ein Beispiel geben, wie du diese Frage beantworten kannst, wenn du Zugriff auf die Daten hast.\n\nWenn du zum Beispiel pandas in Python verwendest, kannst du die Anzahl der Zeilen mit mode_STRING = 'MANUAL' wie folgt ermitteln:\n\n```\nimport pandas as pd\n\n# Annahme: df ist dein DataFrame\ndf = pd.read_csv('deine_daten.csv')\n\n# Zählen der Zeilen mit mode_STRING = 'MANUAL'\nanzahl_manual = len(df[df['mode_STRING'] == 'MANUAL'])\n\nprint(anzahl_manual)\n```\n\nWenn du mir mehr über deine Daten erzählst oder wie du auf sie zugreifst, kann ich dir eine genauere Antwort geben.",
+      "response_time": 9.274053,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.2533333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 0.0,
+        "overall_score": 0.2383333333333333,
+        "extracted_numbers": []
+      },
+      "overall_score": 0.2383333333333333,
+      "timestamp": "2025-09-29T11:16:17.546654",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Leider habe ich keine Informationen über deine Datensätze. Ich kann dir jedoch ein Beispiel geben, w...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.2383333333333333,
+            "response_time": 9.274053
+          },
+          {
+            "attempt": 2,
+            "response": "Leider habe ich keine Informationen über deine Datensätze. Ich kann dir jedoch ein Beispiel geben, w...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.2383333333333333,
+            "response_time": 8.415996
+          },
+          {
+            "attempt": 3,
+            "response": "Leider habe ich keine spezifischen Daten, um deine Frage genau zu beantworten.",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.175,
+            "response_time": 1.350713
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q6_manual_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'MANUAL'? Antworte nur mit der Zahl.",
+      "approach": "expert",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist, können wir davon ausgehen, dass etwa 10-20% der Datensätze den Modus MANUAL haben. \n\n113.855 * 0,15 = 17.078,25 \n\nAlso ungefähr 17.078 Datensätze.",
+      "response_time": 4.777928,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.24,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.33499999999999996,
+        "extracted_numbers": [
+          20.0
+        ]
+      },
+      "overall_score": 0.33499999999999996,
+      "timestamp": "2025-09-29T11:16:40.289822",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_2",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist, können wir davon ausgehen, dass MANUAL etwa 1...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.305,
+            "response_time": 10.993534
+          },
+          {
+            "attempt": 2,
+            "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist, können wir davon ausgehen, dass etwa 10-20% d...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 4.777928
+          },
+          {
+            "attempt": 3,
+            "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist, können wir davon ausgehen, dass MANUAL etwa 1...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.305,
+            "response_time": 6.969103
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q6_manual_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'MANUAL'? Antworte nur mit der Zahl.",
+      "approach": "enhanced",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Um die Anzahl der Datensätze mit mode_STRING = 'MANUAL' zu berechnen, müssen wir die Gesamtzahl der Datensätze und den erwarteten Anteil von 'MANUAL'-Modus kennen.\n\nDa moderne CNC-Anlagen typischerweise 65-80% AUTOMATIC-Modus aufweisen, können wir davon ausgehen, dass der Anteil von 'MANUAL'-Modus etwa 20-35% beträgt. Nehmen wir einen mittleren Wert von 27,5% an.\n\nGesamtdatensätze: 113.855\nErwarteter Anteil 'MANUAL': 27,5%\n\nBerechnung: 113.855 × 0,275 = 31.310,125\n\nGerundet auf ganze Zahlen: 31.310\n\nAntwort: 31.310",
+      "response_time": 17.401088,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.3733333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.3683333333333333,
+        "extracted_numbers": [
+          31310.0
+        ]
+      },
+      "overall_score": 0.3683333333333333,
+      "timestamp": "2025-09-29T11:17:18.769239",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Um die Anzahl der Datensätze mit mode_STRING = 'MANUAL' zu berechnen, müssen wir die Gesamtzahl der ...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3683333333333333,
+            "response_time": 17.401088
+          },
+          {
+            "attempt": 2,
+            "response": "Um die Anzahl der Datensätze mit mode_STRING = 'MANUAL' zu berechnen, müssen wir die Gesamtzahl der ...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 10.765734
+          },
+          {
+            "attempt": 3,
+            "response": "Um die Anzahl der Datensätze mit mode_STRING = 'MANUAL' zu berechnen, müssen wir die Gesamtzahl der ...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3683333333333333,
+            "response_time": 10.309675
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q6_manual_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'MANUAL'? Antworte nur mit der Zahl.",
+      "approach": "systematic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "28.571",
+      "response_time": 1.652215,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          28571.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:17:21.336097",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "28.571",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 1.652215
+          },
+          {
+            "attempt": 2,
+            "response": "28.571",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.476371
+          },
+          {
+            "attempt": 3,
+            "response": "28.571",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.437424
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q6_manual_count",
+      "question": "Wie viele Datensätze haben GENAU mode_STRING = 'MANUAL'? Antworte nur mit der Zahl.",
+      "approach": "ml",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "23.419",
+      "response_time": 0.724035,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          23419.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:17:23.596558",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "23.419",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.724035
+          },
+          {
+            "attempt": 2,
+            "response": "23.419",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 1.023634
+          },
+          {
+            "attempt": 3,
+            "response": "23.419",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.511474
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q7_auto_manual_ratio",
+      "question": "Wie lautet das GENAUE Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen? Antworte nur mit einer Zahl mit zwei Nachkommastellen.",
+      "approach": "basic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Leider habe ich keine spezifischen Informationen über die Anzahl der AUTOMATIC- und MANUAL-Datensätze, die du meinst. Wenn du mir mehr Kontext oder Informationen über die spezifischen Datensätze gibst, kann ich versuchen, dir eine genauere Antwort zu geben.",
+      "response_time": 4.494623,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.12,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 0.0,
+        "overall_score": 0.205,
+        "extracted_numbers": []
+      },
+      "overall_score": 0.205,
+      "timestamp": "2025-09-29T11:17:37.010627",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_3",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Leider habe ich keine spezifischen Informationen über die Anzahl der AUTOMATIC- und MANUAL-Datensätz...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.205,
+            "response_time": 4.742054
+          },
+          {
+            "attempt": 2,
+            "response": "Leider habe ich keine spezifischen Informationen über die Anzahl der AUTOMATIC- und MANUAL-Datensätz...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.205,
+            "response_time": 4.174164
+          },
+          {
+            "attempt": 3,
+            "response": "Leider habe ich keine spezifischen Informationen über die Anzahl der AUTOMATIC- und MANUAL-Datensätz...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.205,
+            "response_time": 4.494623
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q7_auto_manual_ratio",
+      "question": "Wie lautet das GENAUE Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen? Antworte nur mit einer Zahl mit zwei Nachkommastellen.",
+      "approach": "expert",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Um das Verhältnis zu berechnen, müssen wir zunächst die Anzahl der Datensätze für AUTOMATIC und MANUAL ermitteln. Nehmen wir an, dass die Daten wie folgt verteilt sind:\n\n- AUTOMATIC: 80% der Gesamtdatensätze (da AUTOMATIC häufiger als MANUAL ist)\n- MANUAL: 20% der Gesamtdatensätze\n\nBerechnung der Anzahl der Datensätze für AUTOMATIC und MANUAL:\n\n- AUTOMATIC: 0,8 * 113.855 ≈ 91.084\n- MANUAL: 0,2 * 113.855 ≈ 22.771\n\nVerhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen:\n\n91.084 / 22.771 ≈ 4,00\n\nDas Verhältnis beträgt also ungefähr 4,00.",
+      "response_time": 9.154718,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.12,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.305,
+        "extracted_numbers": [
+          80.0
+        ]
+      },
+      "overall_score": 0.305,
+      "timestamp": "2025-09-29T11:18:17.081058",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_2",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Um das Verhältnis zu berechnen, müssen wir zunächst die Anzahl der Datensätze für AUTOMATIC und MANU...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.305,
+            "response_time": 12.371005
+          },
+          {
+            "attempt": 2,
+            "response": "Um das Verhältnis zu berechnen, müssen wir zunächst die Anzahl der Datensätze für AUTOMATIC und MANU...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.305,
+            "response_time": 9.154718
+          },
+          {
+            "attempt": 3,
+            "response": "Um das Verhältnis zu berechnen, müssen wir zunächst die Anzahl der Datensätze für AUTOMATIC und MANU...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.305,
+            "response_time": 18.540632
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q7_auto_manual_ratio",
+      "question": "Wie lautet das GENAUE Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen? Antworte nur mit einer Zahl mit zwei Nachkommastellen.",
+      "approach": "enhanced",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Um das Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen zu berechnen, müssen wir zunächst die Anzahl der Datensätze für jeden Modus ermitteln.\n\nAngenommen, wir haben 113.855 Datensätze insgesamt. Wir wissen, dass moderne CNC-Anlagen typischerweise 65-80% AUTOMATIC sind. Nehmen wir für unsere Berechnung einen Wert von 72,5% an, der in etwa der Mitte dieses Bereichs liegt.\n\nAnzahl AUTOMATIC-Datensätze = 113.855 * 0,725 = 82.545,375\n\nAnzahl MANUAL-Datensätze = 113.855 - 82.545,375 = 31.309,625\n\nVerhältnis AUTOMATIC zu MANUAL = 82.545,375 / 31.309,625 ≈ 2,64\n\nDas Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen beträgt also ungefähr 2,64.\n\nAntwort: 2,64",
+      "response_time": 13.98253,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.24,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.33499999999999996,
+        "extracted_numbers": [
+          2.64
+        ]
+      },
+      "overall_score": 0.33499999999999996,
+      "timestamp": "2025-09-29T11:18:46.227024",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_3",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Um das genaue Verhältnis zu berechnen, müssen wir zunächst die Anzahl der Datensätze für AUTOMATIC u...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.305,
+            "response_time": 7.913396
+          },
+          {
+            "attempt": 2,
+            "response": "Um das genaue Verhältnis zu berechnen, müssen wir zunächst die Anzahl der Datensätze für AUTOMATIC u...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.305,
+            "response_time": 7.245906
+          },
+          {
+            "attempt": 3,
+            "response": "Um das Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen zu berechnen, müssen wir zunächst die A...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.33499999999999996,
+            "response_time": 13.98253
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q7_auto_manual_ratio",
+      "question": "Wie lautet das GENAUE Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen? Antworte nur mit einer Zahl mit zwei Nachkommastellen.",
+      "approach": "systematic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "2,55",
+      "response_time": 0.631814,
+      "validation_scores": {
+        "numerical_accuracy": 1.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          2.55
+        ]
+      },
+      "overall_score": 0.75,
+      "timestamp": "2025-09-29T11:18:48.404043",
+      "triple_validation": {
+        "selection_reason": "perfect_accuracy_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "2,55",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 0.631814
+          },
+          {
+            "attempt": 2,
+            "response": "2,55",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 0.943886
+          },
+          {
+            "attempt": 3,
+            "response": "2,55",
+            "numerical_accuracy": 1.0,
+            "overall_score": 0.75,
+            "response_time": 0.600247
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q7_auto_manual_ratio",
+      "question": "Wie lautet das GENAUE Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen? Antworte nur mit einer Zahl mit zwei Nachkommastellen.",
+      "approach": "ml",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "3,87",
+      "response_time": 0.519777,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          3.87
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:18:49.659518",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "3,87",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.519777
+          },
+          {
+            "attempt": 2,
+            "response": "3,87",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.363959
+          },
+          {
+            "attempt": 3,
+            "response": "3,87",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.370526
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q8_active_count",
+      "question": "Wie viele Datensätze haben GENAU exec_STRING = 'ACTIVE'? Antworte nur mit der Zahl.",
+      "approach": "basic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Leider kann ich ohne Zugriff auf deine Datenbank oder deinen Datensatz keine genaue Antwort geben. Wenn du jedoch eine SQL-Abfrage ausführen kannst, wäre die Antwort das Ergebnis von:\n\n```sql\nSELECT COUNT(*) \nFROM deine_tabelle \nWHERE exec_STRING = 'ACTIVE';\n```",
+      "response_time": 4.854517,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.13333333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 0.0,
+        "overall_score": 0.20833333333333331,
+        "extracted_numbers": []
+      },
+      "overall_score": 0.20833333333333331,
+      "timestamp": "2025-09-29T11:18:58.116842",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_3",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Leider kann ich ohne Zugriff auf deine spezifischen Daten keine genaue Antwort geben. Ich benötige m...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.175,
+            "response_time": 2.312823
+          },
+          {
+            "attempt": 2,
+            "response": "Leider kann ich ohne Zugriff auf die spezifischen Daten keine genaue Antwort geben.",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.175,
+            "response_time": 1.288972
+          },
+          {
+            "attempt": 3,
+            "response": "Leider kann ich ohne Zugriff auf deine Datenbank oder deinen Datensatz keine genaue Antwort geben. W...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.20833333333333331,
+            "response_time": 4.854517
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q8_active_count",
+      "question": "Wie viele Datensätze haben GENAU exec_STRING = 'ACTIVE'? Antworte nur mit der Zahl.",
+      "approach": "expert",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Da wir keine genauen Zahlen haben, müssen wir eine realistische Schätzung basierend auf den Grundannahmen treffen. Wir wissen, dass ACTIVE produktive Zeit anzeigt und daher wahrscheinlich ein großer Teil der Gesamtdatensätze ist.\n\nAngenommen, dass etwa 70-80% der Gesamtdatensätze 'ACTIVE' sind (da dies produktive Zeit ist), können wir eine Schätzung treffen.\n\n113.855 * 0,75 (als Mittelwert zwischen 70% und 80%) = 85.391,25\n\nAlso, ungefähr 85.391 Datensätze haben GENAU exec_STRING = 'ACTIVE'.",
+      "response_time": 7.116444,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.2533333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.3383333333333333,
+        "extracted_numbers": [
+          80.0
+        ]
+      },
+      "overall_score": 0.3383333333333333,
+      "timestamp": "2025-09-29T11:19:30.011884",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_3",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Da wir keine genauen Zahlen haben, müssen wir eine realistische Schätzung basierend auf den Grundann...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 14.74566
+          },
+          {
+            "attempt": 2,
+            "response": "Da wir keine genauen Zahlen haben, müssen wir eine realistische Schätzung basierend auf den Grundann...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 10.030153
+          },
+          {
+            "attempt": 3,
+            "response": "Da wir keine genauen Zahlen haben, müssen wir eine realistische Schätzung basierend auf den Grundann...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 7.116444
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q8_active_count",
+      "question": "Wie viele Datensätze haben GENAU exec_STRING = 'ACTIVE'? Antworte nur mit der Zahl.",
+      "approach": "enhanced",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "39821",
+      "response_time": 0.472091,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          39821.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:19:31.339433",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "39821",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.472091
+          },
+          {
+            "attempt": 2,
+            "response": "39821",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.412959
+          },
+          {
+            "attempt": 3,
+            "response": "39821",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.441102
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q8_active_count",
+      "question": "Wie viele Datensätze haben GENAU exec_STRING = 'ACTIVE'? Antworte nur mit der Zahl.",
+      "approach": "systematic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "47311",
+      "response_time": 0.446395,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          47311.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:19:32.597491",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "47311",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.446395
+          },
+          {
+            "attempt": 2,
+            "response": "47311",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.38448
+          },
+          {
+            "attempt": 3,
+            "response": "47311",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.426394
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q8_active_count",
+      "question": "Wie viele Datensätze haben GENAU exec_STRING = 'ACTIVE'? Antworte nur mit der Zahl.",
+      "approach": "ml",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "85427",
+      "response_time": 0.551196,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          85427.0
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:19:34.055464",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "85427",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.551196
+          },
+          {
+            "attempt": 2,
+            "response": "85427",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.496466
+          },
+          {
+            "attempt": 3,
+            "response": "85427",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.409383
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q9_active_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit exec_STRING = 'ACTIVE' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "basic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Leider habe ich keine Informationen über die Gesamtzahl der Datensätze oder die Anzahl der Datensätze mit exec_STRING = 'ACTIVE'. Um den genauen Prozentsatz zu berechnen, benötige ich diese Informationen.\n\nWenn du mir jedoch die Gesamtzahl der Datensätze und die Anzahl der Datensätze mit exec_STRING = 'ACTIVE' gibst, kann ich dir den genauen Prozentsatz berechnen.\n\nBeispiel: Wenn es 1000 Datensätze gibt und 250 davon exec_STRING = 'ACTIVE' sind, dann wäre der Prozentsatz 25,0%.",
+      "response_time": 6.330855,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.2533333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.3383333333333333,
+        "extracted_numbers": [
+          25.0
+        ]
+      },
+      "overall_score": 0.3383333333333333,
+      "timestamp": "2025-09-29T11:19:59.656185",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_3",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Leider habe ich keine Informationen über die Gesamtzahl der Datensätze oder die Anzahl der Datensätz...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 9.630932
+          },
+          {
+            "attempt": 2,
+            "response": "Leider habe ich keine Informationen über die Gesamtzahl der Datensätze oder die Anzahl der Datensätz...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 9.635051
+          },
+          {
+            "attempt": 3,
+            "response": "Leider habe ich keine Informationen über die Gesamtzahl der Datensätze oder die Anzahl der Datensätz...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 6.330855
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q9_active_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit exec_STRING = 'ACTIVE' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "expert",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "Um den genauen Prozentsatz zu berechnen, müssen wir die Anzahl der Datensätze mit exec_STRING = 'ACTIVE' durch die Gesamtzahl der Datensätze teilen und dann mit 100 multiplizieren.\n\nDa wir keine genauen Zahlen haben, müssen wir eine realistische Schätzung vornehmen. Unter der Annahme, dass die Maschine die meiste Zeit produktiv ist, können wir davon ausgehen, dass etwa 80-90% der Datensätze den Status 'ACTIVE' haben.\n\nFür unsere Schätzung nehmen wir einen Wert von 85% an.\n\nDie Antwort lautet also: 85,0",
+      "response_time": 6.911427,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.2533333333333333,
+        "reasoning_quality": 0.7,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.3383333333333333,
+        "extracted_numbers": [
+          100.0
+        ]
+      },
+      "overall_score": 0.3383333333333333,
+      "timestamp": "2025-09-29T11:20:35.700984",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "Um den genauen Prozentsatz zu berechnen, müssen wir die Anzahl der Datensätze mit exec_STRING = 'ACT...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 6.911427
+          },
+          {
+            "attempt": 2,
+            "response": "Um den genauen Prozentsatz zu ermitteln, müssen wir die Anzahl der Datensätze mit exec_STRING = 'ACT...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 15.248285
+          },
+          {
+            "attempt": 3,
+            "response": "Um den genauen Prozentsatz zu ermitteln, müssen wir die Anzahl der Datensätze mit exec_STRING = 'ACT...",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.3383333333333333,
+            "response_time": 13.881194
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q9_active_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit exec_STRING = 'ACTIVE' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "enhanced",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "35,1",
+      "response_time": 0.716288,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          35.1
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:20:37.247978",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "35,1",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.716288
+          },
+          {
+            "attempt": 2,
+            "response": "35,1",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.410894
+          },
+          {
+            "attempt": 3,
+            "response": "35,1",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.418356
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q9_active_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit exec_STRING = 'ACTIVE' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "systematic",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "38,5",
+      "response_time": 0.605075,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          38.5
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:20:38.669907",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "38,5",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.605075
+          },
+          {
+            "attempt": 2,
+            "response": "38,5",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.407401
+          },
+          {
+            "attempt": 3,
+            "response": "38,5",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.40831
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q9_active_percentage",
+      "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit exec_STRING = 'ACTIVE' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+      "approach": "ml",
+      "model": "ionos",
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
+      "response": "23,7",
+      "response_time": 0.615118,
+      "validation_scores": {
+        "numerical_accuracy": 0.0,
+        "semantic_understanding": 0.0,
+        "reasoning_quality": 1.0,
+        "extraction_confidence": 1.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          23.7
+        ]
+      },
+      "overall_score": 0.35,
+      "timestamp": "2025-09-29T11:20:41.640364",
+      "triple_validation": {
+        "selection_reason": "best_overall_score_attempt_1",
+        "all_attempts": [
+          {
+            "attempt": 1,
+            "response": "23,7",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.615118
+          },
+          {
+            "attempt": 2,
+            "response": "74,2",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 1.84215
+          },
+          {
+            "attempt": 3,
+            "response": "23,7",
+            "numerical_accuracy": 0.0,
+            "overall_score": 0.35,
+            "response_time": 0.512034
+          }
+        ]
+      }
+    }
+  ],
+  "ground_truth": {
+    "total_records": 113855,
+    "columns": [
+      "ts_utc",
+      "time",
+      "pgm_STRING",
+      "mode_STRING",
+      "exec_STRING",
+      "ctime_REAL"
+    ],
+    "program_distribution": {
+      "100.362.1Y.00.01.0SP-1": 56.026524965965486,
+      "5T2.000.1Y.AL.01.0SP-2": 38.782662158007994,
+      "5T2.000.1Y.03.04.0SP-1": 5.168855122743841
+    },
+    "mode_efficiency": {
+      "automatic_percentage": 67.88898159940275,
+      "manual_percentage": 32.11101840059725,
+      "auto_vs_manual_ratio": 2.114195842450766
+    },
+    "active_percentage": 35.929910851521676
+  },
+  "summary": {
+    "total_tests": 45,
+    "successful_tests": 45,
+    "average_score": 0.3748518518518519,
+    "total_time": 229.333766,
+    "avg_response_time": 5.096305911111111
+  }
+}

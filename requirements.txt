@@ -1,0 +1,78 @@
+# Industrial Signal Processing & Time Series Analysis
+# Python package requirements
+
+# Core Data Science Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+
+# Signal Processing
+PyWavelets>=1.1.1
+librosa>=0.8.1
+spectrum>=0.8.0
+
+# Machine Learning & Deep Learning
+tensorflow>=2.8.0
+torch>=1.11.0
+xgboost>=1.6.0
+lightgbm>=3.3.0
+catboost>=1.0.0
+
+# Time Series Analysis
+statsmodels>=0.13.0
+sktime>=0.11.0
+tsfresh>=0.19.0
+prophet>=1.1.0
+pmdarima>=1.8.0
+
+# Optimization & Hyperparameter Tuning
+optuna>=3.0.0
+hyperopt>=0.2.7
+bayesian-optimization>=1.4.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.8.0
+bokeh>=2.4.0
+
+# Dashboard & Web Interface
+streamlit>=1.10.0
+dash>=2.5.0
+flask>=2.1.0
+
+# Data Processing & Storage
+sqlalchemy>=1.4.0
+influxdb-client>=1.29.0
+h5py>=3.7.0
+pyarrow>=8.0.0
+
+# Cloud & Deployment
+docker>=5.0.0
+kubernetes>=23.6.0
+boto3>=1.24.0  # AWS SDK
+azure-storage-blob>=12.12.0  # Azure SDK
+
+# Utilities & Development
+jupyter>=1.0.0
+ipywidgets>=7.7.0
+tqdm>=4.64.0
+python-dotenv>=0.20.0
+click>=8.1.0
+
+# Testing & Code Quality
+pytest>=7.1.0
+pytest-cov>=3.0.0
+black>=22.5.0
+flake8>=4.0.0
+mypy>=0.961
+
+# Monitoring & Logging
+prometheus-client>=0.14.0
+psutil>=5.9.0
+loguru>=0.6.0
+
+# Security
+cryptography>=37.0.0
+keyring>=23.6.0

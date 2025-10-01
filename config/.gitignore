@@ -1,0 +1,5 @@
+# Ignore all token files
+*_token.txt
+
+# But keep examples
+!*_token.txt.example

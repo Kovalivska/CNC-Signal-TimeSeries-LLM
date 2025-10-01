@@ -1,0 +1,35 @@
+CNC EINZELMASCHINEN-ANALYSE - ZUSAMMENFASSUNG
+============================================================
+
+MASCHINE: M1_clean_original_names
+ANALYSEDATUM: 2025-10-01T15:44:09
+ANALYSEZEITRAUM: 72.0 Stunden
+DATENQUALITÄT: 100.0% vollständig
+
+GESAMTBEWERTUNG: VERBESSERUNGSBEDÜRFTIG (40.0%)
+SCORE: 12/30 Punkte
+EMPFEHLUNG: Gezielte Optimierungsmaßnahmen implementieren
+
+ZYKLUSZEIT:
+  Durchschnitt: 20.66 Minuten
+  Zyklen/Stunde: 0.8
+  Konsistenz (CV): 1.712
+
+RÜSTZEIT:
+  Durchschnitt: 17.10 Minuten
+  Rüstvorgänge/Tag: 1.3
+  Effizienz: Akzeptabel
+
+KORRELATIONEN:
+  Signifikante Korrelationen: 0
+  Starke Korrelationen: 0
+
+  (Keine Korrelationen gefunden)
+
+HANDLUNGSEMPFEHLUNGEN:
+  1.  PRIORITÄT 1: Zykluszeit-Konsistenz verbessern - Prozessstabilität untersuchen
+  2.  Produktionsrate analysieren - Möglichkeit zur Taktzeit-Optimierung prüfen
+  3.  Rüstzeit-Optimierung: Rüstprozesse standardisieren und dokumentieren
+  4.  Produktivität verbessern - Maschinenauslastung optimieren
+
+NÄCHSTE ANALYSE EMPFOHLEN: 2025-10-08

@@ -1,0 +1,476 @@
+{
+  "q1_total_records": {
+    "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+    "expected_values": [
+      113855.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "1.000.000",
+        "extracted_numbers": [
+          1000000.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.506943
+      },
+      "expert": {
+        "response": "113.855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.264438
+      },
+      "enhanced": {
+        "response": "113,855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.336108
+      },
+      "systematic": {
+        "response": "113855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.391127
+      },
+      "ml": {
+        "response": "113,855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.330078
+      }
+    }
+  },
+  "q2_top_program_count": {
+    "question": "Wie oft kommt das Programm '100.362.1Y.00.01.0SP-1' GENAU im Dataset vor? Antworte nur mit der Zahl.",
+    "expected_values": [
+      63789.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "1",
+        "extracted_numbers": [
+          1.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.188551
+      },
+      "expert": {
+        "response": "1",
+        "extracted_numbers": [
+          1.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.304477
+      },
+      "enhanced": {
+        "response": "1",
+        "extracted_numbers": [
+          1.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.331145
+      },
+      "systematic": {
+        "response": "55.0",
+        "extracted_numbers": [
+          55.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.357908
+      },
+      "ml": {
+        "response": "1",
+        "extracted_numbers": [
+          1.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.589093
+      }
+    }
+  },
+  "q3_top_program_percentage": {
+    "question": "Welchen GENAUEN Prozentsatz macht das Programm '100.362.1Y.00.01.0SP-1' von der Gesamtanzahl der Datensätze aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+    "expected_values": [
+      0.5602652496596549,
+      56.026524965965486
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Um den genauen Prozentsatz zu ermitteln, benötige ich die Gesamtzahl der Datensätze. Leider ist diese Information nicht verfügbar. \n\nWenn wir jedoch annehmen, dass die Bezeichnung \"100.362.1Y.00.01.0SP-1\" eine bestimmte Anzahl von Datensätzen darstellt, können wir eine Annahme treffen. \n\nDie Bezeichnung könnte wie folgt interpretiert werden:\n\n- \"100.362\" könnte die Gesamtzahl der Datensätze darstellen (ohne die letzten beiden Ziffern)\n- \"1Y\" könnte ein Jahr oder eine bestimmte Zeitperiode darstellen\n- \"00.01.0\" könnte den Tag oder die genaue Zeit darstellen\n- \"SP-1\" könnte eine bestimmte Version oder ein Update darstellen\n\nWenn wir annehmen, dass \"100.362\" die Gesamtzahl der Datensätze darstellt, dann beträgt der Prozentsatz, der durch das Programm \"100.362.1Y.00.01.0SP-1\" dargestellt wird:\n\n(1 / 100.362) * 100 = 0,001%\n\nBitte beachten Sie, dass dies nur eine Annahme ist und der tatsächliche Prozentsatz ohne weitere Informationen nicht genau ermittelt werden kann.",
+        "extracted_numbers": [
+          100.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.33499999999999996,
+        "response_time": 4.539548
+      },
+      "expert": {
+        "response": "Um den genauen Prozentsatz zu ermitteln, müssen wir zunächst die Anzahl der Datensätze ermitteln, bei denen das Programm '100.362.1Y.00.01.0SP-1' verwendet wurde.\n\nDa wir keine spezifischen Informationen über die Gesamtzahl der Datensätze haben, die dieses Programm verwenden, müssen wir annehmen, dass die Gesamtzahl der Datensätze 113.855 beträgt.\n\nUm den Prozentsatz zu ermitteln, können wir die folgende Formel verwenden:\n\n(Anzahl der Datensätze mit Programm '100.362.1Y.00.01.0SP-1' / Gesamtzahl der Datensätze) * 100\n\nDa wir jedoch keine spezifischen Informationen über die Anzahl der Datensätze mit diesem Programm haben, können wir nicht genau berechnen. Wir können jedoch annehmen, dass die Anzahl der Datensätze mit diesem Programm sehr klein ist, da es sich um ein spezifisches Programm handelt.\n\nUm einen realistischen Prozentsatz zu schätzen, können wir annehmen, dass das Programm '100.362.1Y.00.01.0SP-1' etwa 0,1 % der Gesamtzahl der Datensätze ausmacht. Dies ist eine sehr kleine Schätzung, da das Programm wahrscheinlich nicht sehr häufig verwendet wird.\n\nDer genaue Prozentsatz wäre also:\n\n(0,1 / 113.855) * 100 ≈ 0,088%\n\nDie endgültige Antwort ist 0,1.",
+        "extracted_numbers": [
+          100.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.33499999999999996,
+        "response_time": 5.411671
+      },
+      "enhanced": {
+        "response": "0.9",
+        "extracted_numbers": [
+          0.9
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.292859
+      },
+      "systematic": {
+        "response": "55.0",
+        "extracted_numbers": [
+          55.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.409582
+      },
+      "ml": {
+        "response": "23.1",
+        "extracted_numbers": [
+          23.1
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.302424
+      }
+    }
+  },
+  "q4_automatic_count": {
+    "question": "Wie viele Datensätze haben GENAU mode_STRING = 'AUTOMATIC'? Antworte nur mit der Zahl.",
+    "expected_values": [
+      77295.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "1",
+        "extracted_numbers": [
+          1.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.2001
+      },
+      "expert": {
+        "response": "113,855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 1.135083
+      },
+      "enhanced": {
+        "response": "113,855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.289918
+      },
+      "systematic": {
+        "response": "70",
+        "extracted_numbers": [
+          70.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.254958
+      },
+      "ml": {
+        "response": "85.219",
+        "extracted_numbers": [
+          85219.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.23183
+      }
+    }
+  },
+  "q5_automatic_percentage": {
+    "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit mode_STRING = 'AUTOMATIC' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+    "expected_values": [
+      0.6788898159940275,
+      67.88898159940275
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Ich benötige mehr Kontext, um eine genaue Antwort geben zu können. Bitte teilen Sie mir mit, wie viele Datensätze insgesamt vorhanden sind und wie viele davon mode_STRING = 'AUTOMATIC' haben.",
+        "extracted_numbers": [],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.2383333333333333,
+        "response_time": 1.642301
+      },
+      "expert": {
+        "response": "Um den genauen Prozentsatz zu ermitteln, müssen wir die Anzahl der Datensätze mit mode_STRING = 'AUTOMATIC' durch die Gesamtdatensätze teilen und dann mit 100 multiplizieren.\n\nAnzahl der Datensätze mit mode_STRING = 'AUTOMATIC':\nCOUNT(pgm_STRING) WHERE mode_STRING = 'AUTOMATIC'\n\nGesamtdatensätze:\nCOUNT(pgm_STRING)\n\nBerechnung:\n( COUNT(pgm_STRING) WHERE mode_STRING = 'AUTOMATIC' / COUNT(pgm_STRING) ) * 100\n\nUm die genaue Antwort zu erhalten, müssen wir die tatsächlichen Werte kennen. Da wir jedoch keine spezifischen Werte haben, können wir eine Schätzung auf der Grundlage der Grundannahmen vornehmen.\n\nBasierend auf der Grundannahme, dass 'AUTOMATIC' häufiger ist als 'MANUAL', können wir annehmen, dass etwa 70-80% der Datensätze mit 'AUTOMATIC' sind.\n\nSchätzung:\n( 0,75 / 1 ) * 100 = 75,0%\n\nDie endgültige Antwort ist 75,0%.",
+        "extracted_numbers": [
+          70.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3716666666666667,
+        "response_time": 4.596112
+      },
+      "enhanced": {
+        "response": "0.8",
+        "extracted_numbers": [
+          0.8
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.272476
+      },
+      "systematic": {
+        "response": "0.7",
+        "extracted_numbers": [
+          0.7
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.297052
+      },
+      "ml": {
+        "response": "66.7",
+        "extracted_numbers": [
+          66.7
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.237145
+      }
+    }
+  },
+  "q6_manual_count": {
+    "question": "Wie viele Datensätze haben GENAU mode_STRING = 'MANUAL'? Antworte nur mit der Zahl.",
+    "expected_values": [
+      36560.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "1",
+        "extracted_numbers": [
+          1.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.20346
+      },
+      "expert": {
+        "response": "1",
+        "extracted_numbers": [
+          1.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.212883
+      },
+      "enhanced": {
+        "response": "1",
+        "extracted_numbers": [
+          1.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.312256
+      },
+      "systematic": {
+        "response": "25.0",
+        "extracted_numbers": [
+          25.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.391471
+      },
+      "ml": {
+        "response": "23.456",
+        "extracted_numbers": [
+          23456.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.278642
+      }
+    }
+  },
+  "q7_auto_manual_ratio": {
+    "question": "Wie lautet das GENAUE Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen? Antworte nur mit einer Zahl mit zwei Nachkommastellen.",
+    "expected_values": [
+      2.114195842450766
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Ich kann keine genauen Zahlen liefern, da es keine offiziellen Statistiken gibt, die das genaue Verhältnis von automatischen zu manuellen Datensätzen ergeben.",
+        "extracted_numbers": [],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.205,
+        "response_time": 1.024486
+      },
+      "expert": {
+        "response": "Um das genaue Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen zu ermitteln, müssen wir die Anzahl der Einträge für jeden Betriebsmodus zählen.\n\nZuerst zählen wir die Anzahl der Einträge für den Betriebsmodus AUTOMATIC:\n\nCOUNT(pgm_STRING) = Anzahl der Einträge für AUTOMATIC\n\nZuerst müssen wir die Anzahl der Einträge für den Betriebsmodus MANUAL zählen:\n\nCOUNT(pgm_STRING) = Anzahl der Einträge für MANUAL\n\nDann können wir das Verhältnis ermitteln, indem wir die Anzahl der Einträge für AUTOMATIC durch die Anzahl der Einträge für MANUAL dividieren:\n\nVerhältnis = (Anzahl der Einträge für AUTOMATIC) / (Anzahl der Einträge für MANUAL)\n\nUm das genaue Verhältnis zu erhalten, müssen wir die tatsächlichen Werte kennen. Da ich keine tatsächlichen Daten habe, werde ich eine hypothetische Antwort geben.\n\nLassen Sie uns sagen, dass es 80.000 Einträge für AUTOMATIC und 33.855 Einträge für MANUAL gibt.\n\nVerhältnis = 80.000 / 33.855 ≈ 2,36\n\nDie endgültige Antwort ist 2,36.",
+        "extracted_numbers": [
+          2.36
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.7683333333333333,
+        "response_time": 4.710866
+      },
+      "enhanced": {
+        "response": "2.35",
+        "extracted_numbers": [
+          2.35
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.295384
+      },
+      "systematic": {
+        "response": "2.40",
+        "extracted_numbers": [
+          2.4
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.320676
+      },
+      "ml": {
+        "response": "0.83",
+        "extracted_numbers": [
+          0.83
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.395919
+      }
+    }
+  },
+  "q8_active_count": {
+    "question": "Wie viele Datensätze haben GENAU exec_STRING = 'ACTIVE'? Antworte nur mit der Zahl.",
+    "expected_values": [
+      40908.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "1",
+        "extracted_numbers": [
+          1.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.211077
+      },
+      "expert": {
+        "response": "113,855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.297849
+      },
+      "enhanced": {
+        "response": "34.219",
+        "extracted_numbers": [
+          34219.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.353162
+      },
+      "systematic": {
+        "response": "38",
+        "extracted_numbers": [
+          38.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.240603
+      },
+      "ml": {
+        "response": "56.219",
+        "extracted_numbers": [
+          56219.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.286913
+      }
+    }
+  },
+  "q9_active_percentage": {
+    "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit exec_STRING = 'ACTIVE' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+    "expected_values": [
+      0.35929910851521674,
+      35.929910851521676
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Ich benötige mehr Informationen, um eine genaue Antwort geben zu können. Bitte teilen Sie mir mit, wie viele Datensätze insgesamt vorhanden sind und wie viele davon exec_STRING = 'ACTIVE' haben. Dann kann ich Ihnen den genauen Prozentsatz berechnen.",
+        "extracted_numbers": [],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.2383333333333333,
+        "response_time": 1.141822
+      },
+      "expert": {
+        "response": "Um den genauen Prozentsatz der Datensätze mit exec_STRING = 'ACTIVE' zu ermitteln, müssen wir die Anzahl der Datensätze mit exec_STRING = 'ACTIVE' durch die Gesamtdatensätze teilen und mit 100 multiplizieren.\n\nZuerst zählen wir die Anzahl der Datensätze mit exec_STRING = 'ACTIVE':\n\nCOUNT(exec_STRING = 'ACTIVE')\n\nDa keine spezifischen Daten zur Verfügung stehen, können wir anhand der Grundannahmen arbeiten:\n\n- ACTIVE zeigt produktive Zeit an, also ist es wahrscheinlich, dass etwa 70-80% der Zeit produktiv ist.\n\nUm einen realistischen Anteil zu schätzen, nehmen wir 75% an.\n\n75% = 0,75\n\nDaher beträgt der genaue Prozentsatz der Datensätze mit exec_STRING = 'ACTIVE':\n\n0,75 * 100 = 75,0%",
+        "extracted_numbers": [
+          100.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3383333333333333,
+        "response_time": 3.797561
+      },
+      "enhanced": {
+        "response": "0.3",
+        "extracted_numbers": [
+          0.3
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.316819
+      },
+      "systematic": {
+        "response": "38.2",
+        "extracted_numbers": [
+          38.2
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.32603
+      },
+      "ml": {
+        "response": "0,9",
+        "extracted_numbers": [
+          0.9
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.276097
+      }
+    }
+  }
+}

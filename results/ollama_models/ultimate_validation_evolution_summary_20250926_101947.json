@@ -1,0 +1,57 @@
+{
+  "validation_evolution": {
+    "fake_validation": {
+      "method": "Dummy values (0.5 for numerical metrics)",
+      "average_score": 0.6515122220251296,
+      "issues": [
+        "50% of score based on hardcoded values",
+        "Misleading high scores"
+      ],
+      "extraction_method": "None"
+    },
+    "real_validation": {
+      "method": "Strict Ground Truth matching (±5%, ±10%, ±20%)",
+      "average_score": 0.633134839018186,
+      "insights": [
+        "Honest but harsh evaluation",
+        "Low numerical accuracy due to strict matching"
+      ],
+      "extraction_method": "Basic regex patterns"
+    },
+    "enhanced_validation": {
+      "method": "Semantic understanding + contextual analysis + relaxed numerical proximity",
+      "average_score": 0.5174064421368024,
+      "advantages": [
+        "Captures true LLM analytical strengths",
+        "Realistic evaluation of capabilities"
+      ],
+      "extraction_method": "Enhanced regex with context"
+    },
+    "superior_validation": {
+      "method": "Multi-strategy extraction (Notebook 7) + progressive scoring + confidence weighting",
+      "average_score": 0.8092493192931696,
+      "advantages": [
+        "Most accurate number extraction",
+        "Context-aware matching",
+        "German language support",
+        "Progressive tolerance"
+      ],
+      "extraction_method": "5 extraction strategies with deduplication and ranking"
+    }
+  },
+  "final_conclusions": [
+    "Notebook 7 extraction approach provides most accurate numerical validation",
+    "Multi-strategy extraction finds more relevant numbers than single patterns",
+    "Context-aware extraction improves matching accuracy significantly",
+    "Progressive scoring (±1% to ±100%) provides fair evaluation",
+    "Superior validation shows highest correlation with actual LLM capabilities",
+    "ENHANCED prompt approach performs best across all validation methods"
+  ],
+  "extraction_strategies_used": [
+    "Standalone numbers (integers/floats)",
+    "Formatted numbers (with separators)",
+    "Percentage values with normalization",
+    "Contextual numbers with keywords",
+    "German number words translation"
+  ]
+}
