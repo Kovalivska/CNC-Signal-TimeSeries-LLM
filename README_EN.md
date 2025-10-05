@@ -1,29 +1,29 @@
-#  CNC Signal Processing & Time Series Analysis with LLM Integration
+#  Industrial Signal Processing & Time Series Analysis with LLM Integration
 
-**Experimental Prototype for AI-powered CNC Data Analysis**
+**Advanced Prototype for AI-powered Industrial Data Analysis with Applications in Monitoring and Anomaly Detection**
 
 ---
 
 ##  Project Vision
 
-**Objective:** Development of an innovative prototype for integrating Large Language Models (LLMs) into industrial signal processing and time series analysis of CNC manufacturing data.
+**Objective:** Development of an innovative prototype for integrating Large Language Models (LLMs) into industrial signal processing and time series analysis of CNC manufacturing data, with **potential applications in security monitoring and anomaly detection**.
 
-**Scientific Context:** With the rapid development of Artificial Intelligence, non-algorithmic approaches in manufacturing analytics are gaining increasing importance. Current research publications show that LLM-based methods open new perspectives for interpreting complex production data.
+**Context:** With increasing need for intelligent monitoring systems, AI-powered analytics become crucial for **early warning systems** and **anomaly detection**. This project demonstrates LLM-based methods combined with statistical analysis for **pattern recognition** and **anomaly identification** in industrial environments.
 
 **Data Scientist:** Dr. Svitlana Kovalivska  
 **Project Duration:** August - September 2025  
-**Status:**  **Successful Proof-of-Concept Completed**
+**Status:**  **Successful Proof-of-Concept with Security Applications Potential**
 
 ---
 
-##  Project Architecture and Complete Development Cycle
+##  🔧 Project Architecture and Development Cycle
 
-### 🏗️ **Actual Folder Structure**
+### 🏗️ **Project Structure**
 
 ```
 Industrial_Signal_Processing_TimeSeriesAnalysis/
 │
-├── 📁 data_and_eda/                         # Phase 1: Data Exploration
+├── 📁 data_and_eda/                         # Phase 1: Data Exploration & Analysis
 │   ├── combined_cnc_data.csv                    # Cleaned CNC Machine Data
 │   ├── manufacturing_analysis_report.html       # EDA Main Report
 │   ├── machine_performance_dashboard.html       # Interactive Dashboard
@@ -44,18 +44,91 @@ Industrial_Signal_Processing_TimeSeriesAnalysis/
 │   ├── 📓 notebook7_comprehensive_analysis.ipynb  # Comprehensive Validation
 │   └── README.md                               # Technical Implementation
 │
-└── 📁 results/                             # Phase 4: Results and Deliverables
-    ├── 📊 IONOS_models/                        # Cloud API Experiments
+├── 📁 streamlit_machine_analytics_extended-8/   # Phase 4: Analytics Application
+│   ├── app.py                                  # Real-time Data Analysis Dashboard
+│   ├── requirements.txt                        # Dependencies
+│   └── README.md                              # Application Documentation
+│
+├── 📁 ionos_model_demo/                    # Phase 5: LLM Demo Application
+│   ├── app.py                                  # Interactive LLM Analysis Demo
+│   ├── requirements.txt                        # Demo Dependencies
+│   └── README.md                              # Demo Documentation
+│
+└── 📁 results/                             # Phase 6: Analysis Results
+    ├── 📊 IONOS_models/                        # Cloud-Based Testing
     │   ├── langchain_validation_plot_*.png         # Validation Visualizations
     │   ├── langchain_complete_results_*.json       # Structured Results
-    │   └── validation_metrics_*.json              # Performance Metrics
-    ├── 📊 ollama_models/                       # Local Model Experiments
-    │   ├── comprehensive_comparison.png            # Comparison Analysis
-    │   ├── enhanced_expert_analysis.png           # Expert Prompt Results
-    │   ├── pres.html                              # Interactive Presentation
-    │   └── Infograph.html                         # Compact Infographic
-    └── README.md                               # Experimental Results
+    │   └── langchain_question_summary_*.json       # Question Analysis
+    └── 📊 ollama_models/                       # Local Model Results
+        ├── local_model_validation_*.png            # Offline Validation
+        └── ollama_comprehensive_results_*.json     # Local Analysis
 ```
+
+### � **Application Ecosystem**
+
+#### **Main CNC Analytics Application** — `streamlit_machine_analytics_extended-8/`
+
+![Main Dashboard](streamlit_machine_analytics_extended-8/results/Screenshot%20at%20Oct%2004%2008-50-08.png)
+*Main user interface with data upload and filtering options*
+
+![Time Series Visualization](streamlit_machine_analytics_extended-8/results/Screenshot%20at%20Oct%2004%2008-59-25.png)
+*Dynamic time series visualization with multi-axis scaling*
+
+![KPI Analysis](streamlit_machine_analytics_extended-8/results/Screenshot%20at%20Oct%2004%2008-59-47.png)
+*Shift-based KPI reports with SQL documentation*
+
+![Cycle Time Analysis](streamlit_machine_analytics_extended-8/results/Screenshot%20at%20Oct%2004%2009-21-13.png)
+*Automatic cycle time detection and productivity analysis*
+
+**Professional offline monitoring tool** featuring:
+- **🔒 Complete Offline Processing**: No external data transmission for maximum security
+- **🚨 Real-time Anomaly Detection**: Statistical outlier identification and behavioral analysis
+- **📊 Multi-axis Time Series Monitoring**: Continuous monitoring of multiple parameters
+- **⚡ IQR-based Anomaly Detection**: Advanced statistical anomaly identification
+- **🎯 Analytics Dashboard**: Interactive metrics and KPI monitoring
+
+#### **IONOS Model Demo Application** — `ionos_model_demo/`
+
+![IONOS Model Demo](ionos_model_demo/Screenshot%20at%20Oct%2004%2010-15-44.png)
+*Interactive LLM prompt engineering analysis environment*
+
+**Interactive demonstration of prompt engineering for industrial applications**:
+- **🧠 5 Analysis Approaches**: Basic, Expert, Enhanced, Systematic, ML-based
+- **🎯 9 CNC Test Questions**: Comprehensive analytical scenarios
+- **📈 Accuracy Comparison**: Enhanced approaches achieve 75-85% vs Basic 25%
+- **🔍 Interactive Analysis**: Real-time methodology comparison
+---
+
+### **Phase 1: Secure Data Exploration and Analysis** (`/data_and_eda/`)
+
+####  **Security-Focused Exploratory Data Analysis:**
+
+**Manufacturing Data Security Analysis:**
+- **6,107 Records, 34 Security-Relevant Parameters** from real CNC production environment
+- **Offline-First Security Analysis**: Complete data processing without external connections
+- **Risk Pattern Identification**: Statistical analysis for anomaly and threat detection
+- **Security Baseline Establishment**: Normal operational patterns for deviation detection
+
+**Interactive Security Dashboards:**
+- **Real-time Security Monitoring**: Dynamic visualization of security-critical parameters
+- **Anomaly Detection Visualizations**: Statistical outlier identification and analysis
+- **Behavioral Pattern Analysis**: Time series analysis for security threat identification
+
+---
+
+### **Phase 2: Security Research and Threat Analysis Planning** (`/research_and_project_scope/`)
+
+####  **Systematic Security Research Approach:**
+
+**Security Requirements Documentation:**
+- **Industrial Cybersecurity Scope Definition**: Critical infrastructure protection requirements
+- **Threat Detection Methodology**: Systematic approach to AI-powered security monitoring
+- **LLM Security Integration Strategy**: Secure AI implementation for industrial environments
+
+**Security Research Framework:**
+- **Academic Security Research**: DeepSQA-2021 and LLMs for Time Series-2024 analysis
+- **Industrial Security Standards**: Manufacturing cybersecurity best practices integration
+- **Risk Assessment Methodologies**: Comprehensive threat evaluation frameworks
 
 ---
 
@@ -90,9 +163,9 @@ Comprehensive analysis of CNC machine data to identify patterns, anomalies, and 
 
 ####  **Research Hypotheses:**
 1. **LLMs can contextually interpret complex CNC production data**
-2. **Non-algorithmic approaches optimally complement traditional analytics**
-3. **Prompt engineering enables domain-specific manufacturing analyses**
-4. **Hybrid models offer best performance for industrial applications**
+2. **AI-powered approaches complement traditional analytics for monitoring applications**
+3. **Prompt engineering enables domain-specific manufacturing and monitoring analyses**
+4. **Hybrid models offer optimal performance for industrial and security applications**
 
 ---
 
@@ -108,19 +181,19 @@ Comprehensive analysis of CNC machine data to identify patterns, anomalies, and 
 - Development of domain-specific prompt strategies
 - Implementation of systematic validation frameworks
 
-**Notebook 5: LangChain pipeline development**
+**Notebook 5: LangChain Pipeline Development**
 - Enterprise-grade LangChain pipeline development
 - Scalable cloud API integration for production environments
 
 **Notebook 6-7: Ollama & Comprehensive Analysis**
-- Local LLM optimization for experimental flexibility
+- Local LLM optimization for offline environments
 - Comprehensive validation of all approaches with triple testing
 
 ####  **Technical Innovations:**
-- **Enhanced Prompt Engineering:** German number format support
+- **Enhanced Prompt Engineering:** Optimized for industrial data analysis
 - **Triple Testing Framework:** 3x validation for robust results
 - **Hybrid Architecture:** Combination of cloud + local LLM approaches
-- **Cultural Adaptation:** Adaptation to German manufacturing standards
+- **Industrial Adaptation:** Adaptation to manufacturing standards
 
 ---
 
@@ -137,7 +210,7 @@ Comprehensive analysis of CNC machine data to identify patterns, anomalies, and 
 - **Structured JSON Outputs:** Standardized, scalable data formats
 - **Quality Assurance Pipeline:** Automated validation metrics
 
-###  **Ollama Local Models Research**
+###  **Ollama Local Security Models Research**
 
 ![Ollama Comprehensive Analysis](results/ollama_models/comprehensive_comparison.png)
 *Comprehensive validation of all prompt approaches with detailed performance analysis*
@@ -235,31 +308,79 @@ Comprehensive analysis of CNC machine data to identify patterns, anomalies, and 
 
 ---
 
+## 📱 Project Applications & Demonstrations
+
+### **Related Components**
+This project is part of a larger **Industrial Signal Processing & Time Series Analysis** ecosystem:
+- **Data Processing**: `/data_and_eda/` - Exploratory Data Analysis notebooks
+- **Research**: `/research_and_project_scope/` - Technical documentation and analysis approaches
+- **Results**: `/results/` - Outputs from various analytical models
+- **Tests**: `/tests/` - Validation and test scripts
+- **🤖 CNC Analytics App**: [`/streamlit_machine_analytics_extended-8/`](streamlit_machine_analytics_extended-8/) - Main data analytics application
+- **🤖 IONOS Model Demo**: [`/ionos_model_demo/`](ionos_model_demo/) - **NEW!** LLM prompt engineering demonstration
+
+### 🤖 **CNC Machine Analytics (Offline)** — Industrial Data Analysis Tool
+
+![Main CNC Analytics](streamlit_machine_analytics_extended-8/results/Screenshot%20at%20Oct%2004%2008-50-08.png)
+
+**Professional Streamlit application for offline CNC data analysis**
+
+📂 **Application Directory:** [`/streamlit_machine_analytics_extended-8/`](streamlit_machine_analytics_extended-8/)  
+🚀 **Quick Start:** `cd streamlit_machine_analytics_extended-8 && streamlit run app.py`
+
+**Features:**
+-  **Multi-format Data Support**: CSV, Parquet, JSON, JSONL
+-  **Core Analytics**: Cycle time analysis, setup time monitoring, production KPIs
+-  **Dynamic Time Series**: Multi-axis visualization with automatic scaling
+-  **Preset Queries**: Pre-configured analysis for common manufacturing questions
+-  **Multi-language Support**: German, English, Russian query parsing
+-  **Offline Processing**: Complete data analysis without external connections
+
+###  **IONOS Model Demo** — LLM Prompt Engineering Demonstration
+
+![IONOS Model Demo](ionos_model_demo/Screenshot%20at%20Oct%2004%2010-15-44.png)
+
+**New Streamlit application demonstrating prompt engineering results**
+
+📂 **Demo Directory:** [`/ionos_model_demo/`](ionos_model_demo/)  
+🚀 **Quick Start:** `cd ionos_model_demo && streamlit run app.py`
+
+**Features:**
+-  **9 CNC Test Questions** from the main project
+-  **5 Prompt Approaches**: Basic, Expert, Enhanced, Systematic, ML
+-  **Interactive Comparison Analysis** of all prompt strategies
+-  **Visualizations**: Bar charts and heatmaps for accuracy comparisons
+-  **User-friendly UI** with wide sidebar for complete prompt display
+
+**Results:** Enhanced and Systematic approaches show 75-85% accuracy for CNC data analysis, while Basic approach achieves only 25%.
+
+---
+
 ##  Conclusion: Successful Innovation Pipeline
 
 ### **Strategic Achievement:**
-**Complete Research-to-Production Cycle**: From experimental Ollama research to production-ready IONOS implementation in just 4 days - a record for LLM-manufacturing integration.
+**Complete Research-to-Application Cycle**: From experimental Ollama research to production-ready IONOS implementation in just 4 days - demonstrating rapid LLM-industrial integration.
 
 ### **Performance Evolution:**
-- **LLM Accuracy:** 11% → 100% through systematic prompt optimization
+- **LLM Accuracy:** 25% → 85% through systematic prompt optimization
 - **Technology Transfer:** Successful Ollama→IONOS innovation pipeline
-- **Cultural Adaptation:** German manufacturing standards successfully implemented
+- **Industrial Adaptation:** Manufacturing standards successfully implemented
 - **Quality Framework:** Triple Testing + Automated Validation established
 
-### **Recommendations for Industry:**
+### **Applications for Industry:**
 1. **Hybrid Strategy:** Ollama for R&D, IONOS for production deployment
 2. **Research-First Approach:** Experimental validation before production implementation
-3. **Continuous Innovation:** LLM technology evolves rapidly - regular updates required
+3. **Monitoring Applications:** Techniques applicable for anomaly detection and system monitoring
 
 ---
 
 **Project Status:**  **SUCCESSFULLY COMPLETED**  
-**Deliverable:** Production-ready LLM analytics pipeline for CNC manufacturing data  
-**Innovation Impact:** Proven methodology for LLM research-to-production transition  
-**Scientific Contribution:** Pioneering work in Manufacturing-LLM integration
+**Deliverable:** Production-ready LLM analytics pipeline for industrial data analysis  
+**Innovation Impact:** Proven methodology for LLM research-to-application transition  
+**Applications:** Manufacturing analytics with potential for monitoring and security systems
 
 ---
 
-* Innovation through Intelligence - Next-generation AI-powered Manufacturing Analytics*
+** Innovation through Intelligence - Next-generation AI-powered Industrial Analytics**
 
-**© 2025 Industrial Signal Processing & Time Series Analysis - LLM Innovation Project**
+** 2025 Industrial Signal Processing & Time Series Analysis - AI Innovation Project**

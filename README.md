@@ -44,6 +44,16 @@ Industrial_Signal_Processing_TimeSeriesAnalysis/
 │   ├── 📓 notebook7_comprehensive_analysis.ipynb  # Umfassende Validierung
 │   └── README.md                               # Technische Implementierung
 │
+├── 📁 streamlit_machine_analytics_extended-8/  # Phase 5: Interactive Web Application
+│   ├── app.py                                 # Hauptanwendung
+│   ├── requirements.txt                       # Python-Abhängigkeiten
+│   ├── README.md                             # Anwendungsdokumentation
+│   ├── templates/                            # Vorgefertigte Queries
+│   │   ├── presets.json                        # Preset-Definitionen
+│   │   └── plots.py                           # Visualisierungs-Hilfsfunktionen
+│   └── resources/                            # Datendefinitionen
+│       └── dictionary.md                       # CNC-Feldverzeichnis
+│
 └── 📁 results/                             # Phase 4: Ergebnisse und Deliverables
     ├── 📊 IONOS_models/                        # Cloud-API Experimente
     │   ├── langchain_validation_plot_*.png         # Validierungsvisualisierungen
@@ -118,6 +128,40 @@ Umfassende Analyse der CNC-Maschinendaten zur Identifikation von Mustern, Anomal
 
 ####  **Technische Innovationen:**
 - **Enhanced Prompt Engineering:** Deutsche Zahlenformat-Unterstützung
+- **Multi-Provider Architecture:** IONOS Cloud + Ollama Local Solutions
+- **Systematic Validation:** Triple-Testing für wissenschaftliche Reproduzierbarkeit
+- **Cultural Localization:** Mehrsprachige Textverarbeitung (DE/EN/RU)
+
+---
+
+### **Phase 5: Interactive Web Application** (`/streamlit_machine_analytics_extended-8/`)
+
+####  **🔧 Machine Analytics Dashboard:**
+Nach erfolgreicher LLM-Integration wurde eine benutzerfreundliche **Streamlit-Webanwendung** entwickelt, die alle Forschungsergebnisse in eine produktionsreife Lösung überführt.
+
+####  **Funktionsumfang:**
+- **📊 Real-time CNC Analytics:** Live-Auswertung von 90+ Maschinensignalen
+- **🔍 Intelligent Event Detection:** Automatische Erkennung von Zykluszeiten und Rüstvorgängen
+- **📈 Dynamic Time Series:** Top-K Variable Identifikation und Visualisierung
+- **🌐 Multi-language Queries:** Deutsch/Englisch/Russisch Textverarbeitung
+- **⚡ Offline-first Architecture:** Vollständig lokale Datenverarbeitung
+
+####  **Technische Highlights:**
+- **DuckDB Integration:** High-Performance In-Memory Analytics
+- **Preset Query Library:** Vorgefertigte Industrieanalysen
+- **Shift-based KPIs:** 3-Schicht-Analyse (06-14, 14-22, 22-06)
+- **IQR Outlier Detection:** Statistische Anomalieerkennung
+- **Progressive Enhancement:** Von einfachen bis zu komplexen Analysen
+
+####  **Quick Start:**
+```bash
+cd streamlit_machine_analytics_extended-8
+pip install -r requirements.txt
+streamlit run app.py
+# → http://localhost:8502
+```
+
+---
 - **Triple Testing Framework:** 3x Validierung für robuste Ergebnisse
 - **Hybrid Architecture:** Kombination Cloud + Lokale LLM-Ansätze
 - **Cultural Adaptation:** Anpassung an deutsche Fertigungsstandards

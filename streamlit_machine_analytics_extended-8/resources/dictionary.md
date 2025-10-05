@@ -1,0 +1,100 @@
+# Data Dictionary (Hypothetical)
+
+The following descriptions are inferred from field names and typical CNC/PLC telemetry. Please validate against your machine/PLC documentation.
+
+- **name** — Machine identifier (string).
+- **time** — Timestamp (UTC) of the record.
+- **Sovr_STRING** — Categorical/text status or code.
+- **atime_REAL** — Numeric process value (float).
+- **avail_STRING** — Categorical/text status or code.
+- **ccond_STRING** — Categorical/text status or code.
+- **cf_REAL** — Numeric process value (float).
+- **cl_REAL** — Numeric process value (float).
+- **coolhealth_STRING** — Categorical/text status or code.
+- **cposm_REAL** — Numeric process value (float).
+- **cposw_REAL** — Numeric process value (float).
+- **cs2_REAL** — Numeric process value (float).
+- **cs_REAL** — Numeric process value (float).
+- **ct2_STRING** — Categorical/text status or code.
+- **ct_STRING** — Categorical/text status or code.
+- **ctemp2_REAL** — Numeric process value (float).
+- **ctemp_REAL** — Numeric process value (float).
+- **ctime_REAL** — Numeric process value (float).
+- **ctime_in_hours_REAL** — Numeric process value (float).
+- **d1_asset_chg_STRING** — Categorical/text status or code.
+- **d1_asset_rem_STRING** — Categorical/text status or code.
+- **door_STRING** — Categorical/text status or code.
+- **electric_STRING** — Categorical/text status or code.
+- **estop_STRING** — Categorical/text status or code.
+- **exec_Feed_BOOL** — Boolean flag (True/False).
+- **exec_STRING** — Categorical/text status or code.
+- **exec_active_BOOL** — Boolean flag (True/False).
+- **exec_interruped_BOOL** — Boolean flag (True/False).
+- **exec_optional_stopped_BOOL** — Boolean flag (True/False).
+- **exec_program_completed_BOOL** — Boolean flag (True/False).
+- **exec_program_stopped_BOOL** — Boolean flag (True/False).
+- **exec_ready_BOOL** — Boolean flag (True/False).
+- **exec_stopped_BOOL** — Boolean flag (True/False).
+- **functionalmode_STRING** — Categorical/text status or code.
+- **hydhealth_STRING** — Categorical/text status or code.
+- **ln_STRING** — Categorical/text status or code.
+- **logic_STRING** — Categorical/text status or code.
+- **lube_STRING** — Categorical/text status or code.
+- **mode_STRING** — Categorical/text status or code.
+- **mode_automatic_BOOL** — Boolean flag (True/False).
+- **mode_automatic_time_LREAL** — Numeric process value (float).
+- **mode_manual_BOOL** — Boolean flag (True/False).
+- **mode_manual_data_input_BOOL** — Boolean flag (True/False).
+- **mode_manual_data_input_time_LREAL** — Numeric process value (float).
+- **mode_manual_time_LREAL** — Numeric process value (float).
+- **mode_semi_automatic_BOOL** — Boolean flag (True/False).
+- **mode_semi_automatic_time_LREAL** — Numeric process value (float).
+- **motion_STRING** — Categorical/text status or code.
+- **path_system_STRING** — Categorical/text status or code.
+- **pc_STRING** — Categorical/text status or code.
+- **pcmt_STRING** — Categorical/text status or code.
+- **peditmode_STRING** — Categorical/text status or code.
+- **peditname_STRING** — Categorical/text status or code.
+- **pfo_STRING** — Categorical/text status or code.
+- **pfr_STRING** — Categorical/text status or code.
+- **pfreal_REAL** — Numeric process value (float).
+- **pgm_STRING** — Categorical/text status or code.
+- **pltnum_STRING** — Categorical/text status or code.
+- **pneucond_STRING** — Categorical/text status or code.
+- **rf2_STRING** — Categorical/text status or code.
+- **rf_STRING** — Categorical/text status or code.
+- **seq_STRING** — Categorical/text status or code.
+- **servo_STRING** — Categorical/text status or code.
+- **sl2_REAL** — Numeric process value (float).
+- **sl_REAL** — Numeric process value (float).
+- **spc2_STRING** — Categorical/text status or code.
+- **spc_STRING** — Categorical/text status or code.
+- **spcmt_STRING** — Categorical/text status or code.
+- **spgm_STRING** — Categorical/text status or code.
+- **spndl_STRING** — Categorical/text status or code.
+- **system_STRING** — Categorical/text status or code.
+- **tcltime_REAL** — Numeric process value (float).
+- **tid1_STRING** — Categorical/text status or code.
+- **tid_STRING** — Categorical/text status or code.
+- **tmp2_STRING** — Categorical/text status or code.
+- **tmp_STRING** — Categorical/text status or code.
+- **tsuf1_STRING** — Categorical/text status or code.
+- **unit_STRING** — Categorical/text status or code.
+- **wt_STRING** — Categorical/text status or code.
+- **xf_REAL** — Numeric process value (float).
+- **xl_REAL** — Numeric process value (float).
+- **xpm_REAL** — Numeric process value (float).
+- **xpw_REAL** — Numeric process value (float).
+- **xt_STRING** — Categorical/text status or code.
+- **yf_REAL** — Numeric process value (float).
+- **yl_REAL** — Numeric process value (float).
+- **yltime_REAL** — Numeric process value (float).
+- **yltime_in_hours_REAL** — Numeric process value (float).
+- **ypm_REAL** — Numeric process value (float).
+- **ypw_REAL** — Numeric process value (float).
+- **yt_STRING** — Categorical/text status or code.
+- **zf_REAL** — Numeric process value (float).
+- **zl_REAL** — Numeric process value (float).
+- **zpm_REAL** — Numeric process value (float).
+- **zpw_REAL** — Numeric process value (float).
+- **zt_STRING** — Categorical/text status or code.

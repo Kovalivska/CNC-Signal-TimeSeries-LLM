@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Zeitreihe: Top-5 dynamische numerische Kennzahlen (Aggregation wählbar)",
+    "id": "timeseries_top5"
+  },
+  {
+    "name": "Zeitreihe: Auswahl bis zu 10 dynamischer numerischer Kennzahlen (Aggregation wählbar)",
+    "id": "timeseries_select_up_to_10"
+  },
+  {
+    "name": "Durchschnittliche Zykluszeit (alle Maschinen)",
+    "id": "avg_cycle_today"
+  },
+  {
+    "name": "Gesamte Rüstzeit (Maschine 1)",
+    "id": "setup_today_m1"
+  },
+  {
+    "name": "Meiste Produktion (Top-Maschine)",
+    "id": "top_output_7d"
+  },
+  {
+    "name": "KPIs pro Schicht (Teile, Ø Zyklus, Rüstzeit)",
+    "id": "shift_kpis_today"
+  }
+]
