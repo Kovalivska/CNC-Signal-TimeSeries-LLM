@@ -397,10 +397,13 @@ def main():
     st.sidebar.header("📋 Konfiguration")
     
     # Daten laden - universeller Pfad
+    # Получаем путь к директории, где находится app.py
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    
     # Versuche zuerst lokalen Pfad, dann relativen Pfad für Streamlit Cloud
     possible_paths = [
-        "cnc_daten.csv",  # Lokaler Pfad in ionos_model_demo/
-        "../data_and_eda/cnc_daten.csv",  # Relativer Pfad
+        os.path.join(current_dir, "cnc_daten.csv"),  # Lokaler Pfad in ionos_model_demo/
+        os.path.join(current_dir, "..", "data_and_eda", "cnc_daten.csv"),  # Relativer Pfad
         "/Users/svitlanakovalivska/Industrial_Signal_Processing_TimeSeriesAnalysis/data_and_eda/cnc_daten.csv"  # Absoluter Pfad
     ]
     
@@ -414,7 +417,9 @@ def main():
         st.error("❌ Fehler beim Laden der Daten: Datei 'cnc_daten.csv' nicht gefunden!")
         st.info("Mögliche Pfade versucht:")
         for path in possible_paths:
-            st.text(f"- {path}")
+            st.text(f"- {path} ({'✅ existiert' if os.path.exists(path) else '❌ nicht gefunden'})")
+        st.info(f"Aktuelles Arbeitsverzeichnis: {os.getcwd()}")
+        st.info(f"App-Verzeichnis: {current_dir}")
         return
     
     if not st.session_state.get('data_loaded', False):
