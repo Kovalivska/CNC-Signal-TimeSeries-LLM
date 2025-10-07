@@ -22,13 +22,13 @@ Diese Streamlit-Anwendung bietet eine **vollständig offline** Analyse von CNC-M
 
 ## Funktionen
 
-### � **Sicherheit & Datenschutz**
+###  **Sicherheit & Datenschutz**
 - **Vollständig offline**: Keine Datenübertragung an externe Server
 - **On-Premise-Deployment**: Vollständige Kontrolle über sensible Produktionsdaten
 - **Anomalieerkennung**: Statistische Ausreißer-Identifikation für Sicherheitsüberwachung
 - **Risikobewertung**: Automatische Erkennung ungewöhnlicher Maschinenverhaltensweisen
 
-### �📊 **Datenunterstützung**
+### **Datenunterstützung**
 - Mehrere Dateiformate: CSV, Parquet, JSON, JSONL
 - Automatische Zeitstempel-Parsing und Zeitzonenbehandlung
 - Unterstützung für 90+ vordefinierte CNC/SPS-Signalfelder

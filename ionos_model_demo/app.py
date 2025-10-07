@@ -9,6 +9,7 @@ import pandas as pd
 import json
 import time
 import re
+import os
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 import plotly.express as px
@@ -395,8 +396,26 @@ def main():
     # Sidebar für Konfiguration
     st.sidebar.header("📋 Konfiguration")
     
-    # Daten laden
-    data_path = "/Users/svitlanakovalivska/Industrial_Signal_Processing_TimeSeriesAnalysis/data_and_eda/cnc_daten.csv"
+    # Daten laden - universeller Pfad
+    # Versuche zuerst lokalen Pfad, dann relativen Pfad für Streamlit Cloud
+    possible_paths = [
+        "cnc_daten.csv",  # Lokaler Pfad in ionos_model_demo/
+        "../data_and_eda/cnc_daten.csv",  # Relativer Pfad
+        "/Users/svitlanakovalivska/Industrial_Signal_Processing_TimeSeriesAnalysis/data_and_eda/cnc_daten.csv"  # Absoluter Pfad
+    ]
+    
+    data_path = None
+    for path in possible_paths:
+        if os.path.exists(path):
+            data_path = path
+            break
+    
+    if data_path is None:
+        st.error("❌ Fehler beim Laden der Daten: Datei 'cnc_daten.csv' nicht gefunden!")
+        st.info("Mögliche Pfade versucht:")
+        for path in possible_paths:
+            st.text(f"- {path}")
+        return
     
     if not st.session_state.get('data_loaded', False):
         with st.spinner("Lade CNC-Daten..."):
