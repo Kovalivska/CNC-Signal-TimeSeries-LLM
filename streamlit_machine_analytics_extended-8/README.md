@@ -1,6 +1,6 @@
 # CNC Maschinen-Analytics (Offline) — Datenanalyse-Tool für die Fertigungsindustrie
 
-**🚀 Live-Demo:** [Zur Anwendung](https://placeholder-deployment-url.com) *(Link wird nach Deployment aktualisiert)*
+**🚀 Live-Demo:** [Zur Anwendung](https://cnc-signal-timeseries-llm-7m5vzvnyzxrl9gww7wrar4.streamlit.app/) 
 
 > **🔬 Prototyp-Hinweis:** Diese Anwendung ist ein funktionsfähiger Prototyp für ein zukünftiges Hauptprojekt. Die finale Version wird nach Abschluss der Prompt-Engineering-Entwicklung für das Hauptprojekt verfügbar sein.
 

@@ -1,6 +1,6 @@
 # IONOS CNC Model Demo — Demonstration der LLM-Analysefähigkeiten
 
-**Live-Demo:** [Zur Anwendung](https://placeholder-deployment-url.com) *(Link wird nach Deployment aktualisiert)*
+**Live-Demo:** [Zur Anwendung](https://cnc-signal-timeseries-llm-7m5vzvnyzxrl9gww7wrar4.streamlit.app/) - **Jetzt online verfügbar!**
 
 > **Prototype-Status:** Diese Anwendung demonstriert die Ergebnisse verschiedener Prompt-Engineering-Ansätze für CNC-Datenanalyse mit IONOS LLM-Modellen. Sie ist Teil des Hauptprojekts zur industriellen Signalverarbeitung und Zeitreihenanalyse.
 

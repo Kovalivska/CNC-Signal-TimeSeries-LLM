@@ -328,6 +328,8 @@ This project is part of a larger **Industrial Signal Processing & Time Series An
 📂 **Application Directory:** [`/streamlit_machine_analytics_extended-8/`](streamlit_machine_analytics_extended-8/)  
 🚀 **Quick Start:** `cd streamlit_machine_analytics_extended-8 && streamlit run app.py`
 
+🌐 **Live Demo:** [CNC Analytics Live Demo](https://cnc-signal-timeseries-llm-7m5vzvnyzxrl9gww7wrar4.streamlit.app/) - **NEW!** Try the application online
+
 **Features:**
 -  **Multi-format Data Support**: CSV, Parquet, JSON, JSONL
 -  **Core Analytics**: Cycle time analysis, setup time monitoring, production KPIs
@@ -344,6 +346,8 @@ This project is part of a larger **Industrial Signal Processing & Time Series An
 
 📂 **Demo Directory:** [`/ionos_model_demo/`](ionos_model_demo/)  
 🚀 **Quick Start:** `cd ionos_model_demo && streamlit run app.py`
+
+🌐 **Live Demo:** [IONOS Model Demo](https://cnc-signal-timeseries-llm-7m5vzvnyzxrl9gww7wrar4.streamlit.app/) - **NEW!** Interactive LLM prompt engineering demonstration
 
 **Features:**
 -  **9 CNC Test Questions** from the main project
