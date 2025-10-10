@@ -1,0 +1,346 @@
+{
+  "basic": {
+    "total_questions": 9,
+    "avg_numerical_accuracy": 0.0,
+    "avg_overall_score": 0.30407407407407405,
+    "questions": {
+      "q1_total_records": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          1000000.0
+        ]
+      },
+      "q2_top_program_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          1.0
+        ]
+      },
+      "q3_top_program_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.305,
+        "extracted_numbers": [
+          100.0
+        ]
+      },
+      "q4_automatic_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          1.0
+        ]
+      },
+      "q5_automatic_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.2383333333333333,
+        "extracted_numbers": []
+      },
+      "q6_manual_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          1.0
+        ]
+      },
+      "q7_auto_manual_ratio": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.205,
+        "extracted_numbers": []
+      },
+      "q8_active_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          1.0
+        ]
+      },
+      "q9_active_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.2383333333333333,
+        "extracted_numbers": []
+      }
+    }
+  },
+  "expert": {
+    "total_questions": 9,
+    "avg_numerical_accuracy": 0.2222222222222222,
+    "avg_overall_score": 0.4374074074074074,
+    "questions": {
+      "q1_total_records": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "q2_top_program_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.305,
+        "extracted_numbers": [
+          1003621.0
+        ]
+      },
+      "q3_top_program_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3683333333333333,
+        "extracted_numbers": [
+          100.0
+        ]
+      },
+      "q4_automatic_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "q5_automatic_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3716666666666667,
+        "extracted_numbers": [
+          100.0
+        ]
+      },
+      "q6_manual_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3683333333333333,
+        "extracted_numbers": [
+          20.0
+        ]
+      },
+      "q7_auto_manual_ratio": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.735,
+        "extracted_numbers": [
+          2.0
+        ]
+      },
+      "q8_active_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "q9_active_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3383333333333333,
+        "extracted_numbers": [
+          100.0
+        ]
+      }
+    }
+  },
+  "enhanced": {
+    "total_questions": 9,
+    "avg_numerical_accuracy": 0.4444444444444444,
+    "avg_overall_score": 0.5277777777777778,
+    "questions": {
+      "q1_total_records": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "q2_top_program_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          1.0
+        ]
+      },
+      "q3_top_program_percentage": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          0.9
+        ]
+      },
+      "q4_automatic_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "q5_automatic_percentage": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          0.8
+        ]
+      },
+      "q6_manual_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          1.0
+        ]
+      },
+      "q7_auto_manual_ratio": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          2.35
+        ]
+      },
+      "q8_active_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          34219.0
+        ]
+      },
+      "q9_active_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          0.9
+        ]
+      }
+    }
+  },
+  "systematic": {
+    "total_questions": 9,
+    "avg_numerical_accuracy": 0.2222222222222222,
+    "avg_overall_score": 0.4388888888888889,
+    "questions": {
+      "q1_total_records": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "q2_top_program_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          55.0
+        ]
+      },
+      "q3_top_program_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          55.2
+        ]
+      },
+      "q4_automatic_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          70.0
+        ]
+      },
+      "q5_automatic_percentage": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          0.7
+        ]
+      },
+      "q6_manual_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          25.0
+        ]
+      },
+      "q7_auto_manual_ratio": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          2.75
+        ]
+      },
+      "q8_active_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          38.0
+        ]
+      },
+      "q9_active_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          38.2
+        ]
+      }
+    }
+  },
+  "ml": {
+    "total_questions": 9,
+    "avg_numerical_accuracy": 0.2222222222222222,
+    "avg_overall_score": 0.4388888888888889,
+    "questions": {
+      "q1_total_records": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          113855.0
+        ]
+      },
+      "q2_top_program_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          1.0
+        ]
+      },
+      "q3_top_program_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          23.1
+        ]
+      },
+      "q4_automatic_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          95212.0
+        ]
+      },
+      "q5_automatic_percentage": {
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "extracted_numbers": [
+          0.9
+        ]
+      },
+      "q6_manual_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          23456.0
+        ]
+      },
+      "q7_auto_manual_ratio": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          0.73
+        ]
+      },
+      "q8_active_count": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          42123.0
+        ]
+      },
+      "q9_active_percentage": {
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "extracted_numbers": [
+          0.9
+        ]
+      }
+    }
+  }
+}

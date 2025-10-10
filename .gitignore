@@ -6,6 +6,9 @@ data/*_clean_*
 **/machine_*
 **/equipment_*
 
+# Specific confidential files
+data_and_eda/M1_clean_original_names.xlsx
+
 # Images with client information (generic patterns)
 **/*_client_*
 **/*_real_*
@@ -82,3 +85,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 ~*.docx
+
+# Project-specific ignored files
+streamlit_machine_analytics_extended-8/resources/dictionary.md
+data_and_eda/cnc_daten.csv

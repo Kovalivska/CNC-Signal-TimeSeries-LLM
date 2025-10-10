@@ -1,0 +1,470 @@
+{
+  "q1_total_records": {
+    "question": "Wie viele Datensätze enthält das CNC Dataset GENAU? Antworte nur mit der Zahl.",
+    "expected_values": [
+      113855.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Ich habe leider keine Information über die genaue Anzahl der Datensätze im CNC-Dataset.",
+        "extracted_numbers": [],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.235,
+        "response_time": 1.458033
+      },
+      "expert": {
+        "response": "113,855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.451402
+      },
+      "enhanced": {
+        "response": "113,855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 1.454616
+      },
+      "systematic": {
+        "response": "113855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.345335
+      },
+      "ml": {
+        "response": "113,855",
+        "extracted_numbers": [
+          113855.0
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 0.427304
+      }
+    }
+  },
+  "q2_top_program_count": {
+    "question": "Wie oft kommt das Programm '100.362.1Y.00.01.0SP-1' GENAU im Dataset vor? Antworte nur mit der Zahl.",
+    "expected_values": [
+      63789.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Ich habe leider keine Zugriff auf das Dataset, daher kann ich diese Frage nicht beantworten.",
+        "extracted_numbers": [],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.205,
+        "response_time": 1.306972
+      },
+      "expert": {
+        "response": "Da ich keinen direkten Zugriff auf die Daten habe, kann ich nur eine Schätzung basierend auf den Grundannahmen für CNC-Daten vornehmen.\n\nUnter der Annahme, dass es 1-2 häufige Programme gibt und das angegebene Programm eines davon ist, könnte ich eine Schätzung von etwa 40.000 bis 70.000 Einträgen vornehmen, was etwa 35-60% der Gesamtdatensätze entspricht.\n\nEine realistische Schätzung wäre also: 51.412",
+        "extracted_numbers": [
+          60.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.33499999999999996,
+        "response_time": 8.625266
+      },
+      "enhanced": {
+        "response": "Keine genaue Antwort ohne Zugriff auf die Daten möglich, aber basierend auf Pareto-Verteilung und typischen industriellen Mustern:\n\n113,855 Datensätze × 0,6 (typischer Anteil dominanter Programme) = 68,313\n\nDa das Programm jedoch genau angegeben ist, könnte der Anteil niedriger sein. Angenommen, das Programm macht etwa 50% der dominanten Programme aus:\n\n68,313 × 0,5 = 34,156,5\n\nAlso könnte das Programm '100.362.1Y.00.01.0SP-1' ungefähr 34.157 Mal im Dataset vorkommen.",
+        "extracted_numbers": [
+          50.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.365,
+        "response_time": 7.148611
+      },
+      "systematic": {
+        "response": "61391",
+        "extracted_numbers": [
+          61391.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.499901
+      },
+      "ml": {
+        "response": "427",
+        "extracted_numbers": [
+          427.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.408809
+      }
+    }
+  },
+  "q3_top_program_percentage": {
+    "question": "Welchen GENAUEN Prozentsatz macht das Programm '100.362.1Y.00.01.0SP-1' von der Gesamtanzahl der Datensätze aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+    "expected_values": [
+      0.5602652496596549,
+      56.026524965965486
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Leider habe ich keine Informationen über die Gesamtanzahl der Datensätze oder die Anzahl der Datensätze des Programms '100.362.1Y.00.01.0SP-1'. Wenn du diese Informationen bereitstellst, kann ich dir helfen, den Prozentsatz zu berechnen.",
+        "extracted_numbers": [
+          10.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.33499999999999996,
+        "response_time": 3.584676
+      },
+      "expert": {
+        "response": "Um den genauen Prozentsatz zu berechnen, müssten wir die Anzahl der Datensätze mit dem Programm '100.362.1Y.00.01.0SP-1' kennen. Da diese Information nicht gegeben ist, werde ich eine realistische Schätzung basierend auf den Grundannahmen für CNC-Daten vornehmen.\n\nUnter der Annahme, dass es 1-2 häufige Programme gibt und das Programm '100.362.1Y.00.01.0SP-1' eines davon ist, könnte es etwa 40-60% der Gesamtdatensätze ausmachen. Da wir jedoch nach einem genauen Prozentsatz gefragt werden, werde ich eine Schätzung von 50% vornehmen, was jedoch zu hoch erscheint, da es wahrscheinlich zwei häufige Programme gibt.\n\nEine realistischere Schätzung wäre daher: 25,0%",
+        "extracted_numbers": [
+          60.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.33499999999999996,
+        "response_time": 10.591158
+      },
+      "enhanced": {
+        "response": "Um den genauen Prozentsatz zu berechnen, müssen wir zunächst die Anzahl der Datensätze mit dem Programm '100.362.1Y.00.01.0SP-1' ermitteln. Da wir keine direkten Informationen über die Verteilung der Programme haben, können wir das Pareto-Prinzip anwenden, das besagt, dass etwa 60-80% der Zeit von 1-3 Programmen dominiert werden.\n\nAngenommen, das Programm '100.362.1Y.00.01.0SP-1' ist eines der dominanten Programme und macht etwa 50-65% der Gesamtzeit aus. Nehmen wir für unsere Berechnung den Mittelwert von 57,5%.\n\nDie Gesamtzahl der Datensätze beträgt 113.855. Um den Prozentsatz zu berechnen, multiplizieren wir die Gesamtzahl der Datensätze mit dem erwarteten Anteil:\n\n113.855 * 0,575 = 65.566,125\n\nDer Prozentsatz ist also:\n\n(65.566,125 / 113.855) * 100 ≈ 57,5%\n\nDie Antwort ist: 57,5%",
+        "extracted_numbers": [
+          100.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.33499999999999996,
+        "response_time": 299.715433
+      },
+      "systematic": {
+        "response": "55,0",
+        "extracted_numbers": [
+          55.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.607358
+      },
+      "ml": {
+        "response": "4,2",
+        "extracted_numbers": [
+          4.2
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.438677
+      }
+    }
+  },
+  "q4_automatic_count": {
+    "question": "Wie viele Datensätze haben GENAU mode_STRING = 'AUTOMATIC'? Antworte nur mit der Zahl.",
+    "expected_values": [
+      77295.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Leider habe ich keine spezifischen Daten oder Tabellen, auf die ich zugreifen kann. Ich kann dir jedoch helfen, eine SQL-Abfrage zu schreiben, die dir die Anzahl der Datensätze mit mode_STRING = 'AUTOMATIC' liefert:\n\n```sql\nSELECT COUNT(*) \nFROM deine_tabelle \nWHERE mode_STRING = 'AUTOMATIC';\n```\n\nErsetze \"deine_tabelle\" durch den Namen deiner tatsächlichen Tabelle.",
+        "extracted_numbers": [],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.2383333333333333,
+        "response_time": 4.984595
+      },
+      "expert": {
+        "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist und CNC-Maschinen meistens im automatischen Modus laufen, können wir davon ausgehen, dass etwa 70-90% der Datensätze im AUTOMATIC-Modus sind.\n\nBasierend auf dieser Annahme und den Gesamtdatensätzen von 113.855 können wir eine Schätzung vornehmen:\n\n113.855 * 0,8 (als Mittelwert zwischen 70% und 90%) = 91.084\n\nDie Antwort ist also: 91.084",
+        "extracted_numbers": [
+          90.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.33499999999999996,
+        "response_time": 8.574232
+      },
+      "enhanced": {
+        "response": "74319",
+        "extracted_numbers": [
+          74319.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.428079
+      },
+      "systematic": {
+        "response": "81.419",
+        "extracted_numbers": [
+          81419.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.384313
+      },
+      "ml": {
+        "response": "85427",
+        "extracted_numbers": [
+          85427.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.399423
+      }
+    }
+  },
+  "q5_automatic_percentage": {
+    "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit mode_STRING = 'AUTOMATIC' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+    "expected_values": [
+      0.6788898159940275,
+      67.88898159940275
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Leider habe ich keine Informationen über die Gesamtzahl der Datensätze oder die Anzahl der Datensätze mit mode_STRING = 'AUTOMATIC'. Wenn du mir diese Informationen gibst, kann ich dir den genauen Prozentsatz berechnen.\n\nWenn du jedoch die Zahlen hast, kannst du den Prozentsatz selbst berechnen:\n\n(Anzahl der Datensätze mit mode_STRING = 'AUTOMATIC' / Gesamtzahl der Datensätze) * 100\n\nWenn du mir die Zahlen gibst, kann ich dir den genauen Prozentsatz berechnen.",
+        "extracted_numbers": [
+          100.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3383333333333333,
+        "response_time": 7.110422
+      },
+      "expert": {
+        "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist und CNC-Maschinen meistens automatisch betrieben werden, können wir davon ausgehen, dass der Anteil von AUTOMATIC-Datensätzen hoch ist.\n\nAngenommen, etwa 80-90% der Datensätze haben den mode_STRING 'AUTOMATIC'. Um einen realistischen Wert zu erhalten, nehmen wir den Mittelwert dieser Spanne.\n\nDie Antwort wäre also: 85,0%",
+        "extracted_numbers": [
+          90.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3383333333333333,
+        "response_time": 5.173165
+      },
+      "enhanced": {
+        "response": "65,1",
+        "extracted_numbers": [
+          65.1
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.445038
+      },
+      "systematic": {
+        "response": "73,5",
+        "extracted_numbers": [
+          73.5
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.424152
+      },
+      "ml": {
+        "response": "74,8",
+        "extracted_numbers": [
+          74.8
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.465331
+      }
+    }
+  },
+  "q6_manual_count": {
+    "question": "Wie viele Datensätze haben GENAU mode_STRING = 'MANUAL'? Antworte nur mit der Zahl.",
+    "expected_values": [
+      36560.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Leider habe ich keine spezifischen Daten oder Tabellen, auf die ich zugreifen kann. Ich kann jedoch ein Beispiel geben, wie man diese Frage beantworten könnte, wenn man Zugriff auf eine Datenbank oder Tabelle hätte.\n\nWenn wir beispielsweise eine Tabelle \"Daten\" mit einer Spalte \"mode_STRING\" hätten, könnten wir die Anzahl der Datensätze mit mode_STRING = 'MANUAL' wie folgt ermitteln:\n\n- SELECT COUNT(*) FROM Daten WHERE mode_STRING = 'MANUAL';\n\nOhne Zugriff auf die tatsächlichen Daten kann ich leider keine genaue Antwort geben.",
+        "extracted_numbers": [],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.2383333333333333,
+        "response_time": 7.081243
+      },
+      "expert": {
+        "response": "Da wir wissen, dass AUTOMATIC häufiger als MANUAL ist und wir realistische Anteile schätzen sollen, können wir davon ausgehen, dass etwa 10-20% der Datensätze den Modus MANUAL haben.\n\nBei 113.855 Gesamtdatensätzen könnten wir also etwa 11.385 bis 22.771 Datensätze mit mode_STRING = 'MANUAL' erwarten. Ein realistischer Mittelwert könnte bei etwa 15-18% liegen.\n\nDie Antwort wäre also: 17.078 (als realistischer Mittelwert)",
+        "extracted_numbers": [
+          20.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3683333333333333,
+        "response_time": 6.359406
+      },
+      "enhanced": {
+        "response": "Um die Anzahl der Datensätze mit mode_STRING = 'MANUAL' zu berechnen, müssen wir die Gesamtzahl der Datensätze und den erwarteten Anteil von 'MANUAL'-Modus kennen.\n\nDa moderne CNC-Anlagen typischerweise 65-80% AUTOMATIC-Modus aufweisen, können wir davon ausgehen, dass der Anteil von 'MANUAL'-Modus etwa 20-35% beträgt. Nehmen wir einen mittleren Wert von 27,5% an.\n\nGesamtdatensätze: 113.855\nErwarteter Anteil 'MANUAL': 27,5%\n\nBerechnung: 113.855 × 0,275 = 31.310,125\n\nGerundet auf ganze Zahlen: 31.310\n\nAntwort: 31.310",
+        "extracted_numbers": [
+          31310.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3683333333333333,
+        "response_time": 8.884826
+      },
+      "systematic": {
+        "response": "28.571",
+        "extracted_numbers": [
+          28571.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.504946
+      },
+      "ml": {
+        "response": "23.419",
+        "extracted_numbers": [
+          23419.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.510644
+      }
+    }
+  },
+  "q7_auto_manual_ratio": {
+    "question": "Wie lautet das GENAUE Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen? Antworte nur mit einer Zahl mit zwei Nachkommastellen.",
+    "expected_values": [
+      2.114195842450766
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Leider habe ich keine spezifischen Informationen über die Anzahl der AUTOMATIC- und MANUAL-Datensätze. Um eine genaue Antwort zu geben, bräuchte ich mehr Kontext oder Informationen über die spezifische Datensammlung, auf die du dich beziehst. Wenn du mir diese Informationen liefern kannst, helfe ich dir gerne weiter.",
+        "extracted_numbers": [],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.205,
+        "response_time": 4.0684
+      },
+      "expert": {
+        "response": "Um das Verhältnis zu berechnen, müssen wir zunächst die Anzahl der Datensätze für AUTOMATIC und MANUAL ermitteln.\n\nDa wir keine genauen Zahlen haben, müssen wir auf Grundannahmen zurückgreifen. Wir wissen, dass AUTOMATIC häufiger als MANUAL ist. Nehmen wir an, dass AUTOMATIC etwa 80-90% der Gesamtdatensätze ausmacht.\n\nBei 113.855 Gesamtdatensätzen könnten wir also etwa 90% für AUTOMATIC annehmen, was 102.469,5 Datensätzen entspricht. MANUAL würde dann etwa 10% ausmachen, was 11.385,5 Datensätzen entspricht.\n\nDas Verhältnis von AUTOMATIC zu MANUAL wäre dann:\n\n102.469,5 / 11.385,5 ≈ 9,00\n\nDas Verhältnis ist also etwa 9:1. \n\nDie Antwort lautet also: 9,00",
+        "extracted_numbers": [
+          90.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.305,
+        "response_time": 10.427314
+      },
+      "enhanced": {
+        "response": "Um das Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen zu berechnen, müssen wir zunächst die Anzahl der Datensätze für jeden Modus ermitteln.\n\nAngenommen, wir haben 113.855 Datensätze insgesamt. Wir wissen, dass moderne CNC-Anlagen typischerweise 65-80% AUTOMATIC sind. Nehmen wir für unsere Berechnung einen Wert von 72,5% an, der in etwa der Mitte dieses Bereichs liegt.\n\nAnzahl AUTOMATIC-Datensätze = 113.855 * 0,725 = 82.545,375\n\nAnzahl MANUAL-Datensätze = 113.855 - 82.545,375 = 31.309,625\n\nVerhältnis AUTOMATIC zu MANUAL = 82.545,375 / 31.309,625 ≈ 2,64\n\nDas Verhältnis der Anzahl AUTOMATIC zu MANUAL Datensätzen beträgt also ungefähr 2,64.\n\n2,64",
+        "extracted_numbers": [
+          2.64
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.33499999999999996,
+        "response_time": 11.063806
+      },
+      "systematic": {
+        "response": "2,55",
+        "extracted_numbers": [
+          2.55
+        ],
+        "numerical_accuracy": 1.0,
+        "overall_score": 0.75,
+        "response_time": 2.354411
+      },
+      "ml": {
+        "response": "3,87",
+        "extracted_numbers": [
+          3.87
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.383612
+      }
+    }
+  },
+  "q8_active_count": {
+    "question": "Wie viele Datensätze haben GENAU exec_STRING = 'ACTIVE'? Antworte nur mit der Zahl.",
+    "expected_values": [
+      40908.0
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Leider habe ich keine spezifischen Daten oder Tabellen, auf die ich zugreifen kann. Um die Anzahl der Datensätze mit exec_STRING = 'ACTIVE' zu ermitteln, müsste ich Zugriff auf die entsprechende Datenbank oder Tabelle haben.\n\nWenn du jedoch eine SQL-Abfrage ausführen möchtest, um die Anzahl der Datensätze mit exec_STRING = 'ACTIVE' zu ermitteln, könnte die Abfrage wie folgt aussehen:\n\n```sql\nSELECT COUNT(*) \nFROM deine_tabelle \nWHERE exec_STRING = 'ACTIVE';\n```\n\nErsetze \"deine_tabelle\" durch den Namen deiner tatsächlichen Tabelle.",
+        "extracted_numbers": [],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.2383333333333333,
+        "response_time": 7.128728
+      },
+      "expert": {
+        "response": "Da wir keine genauen Zahlen haben, müssen wir eine realistische Schätzung basierend auf den Grundannahmen treffen. \n\nWir wissen, dass ACTIVE produktive Zeit anzeigt und daher wahrscheinlich ein großer Anteil der Gesamtdatensätze ist. Eine realistische Schätzung könnte sein, dass etwa 70-80% der Gesamtdatensätze den Ausführungsstatus 'ACTIVE' haben.\n\nBasierend auf dieser Schätzung können wir die Anzahl der Datensätze mit exec_STRING = 'ACTIVE' wie folgt berechnen:\n\n113.855 (Gesamtdatensätze) * 0,75 (durchschnittlicher Anteil von 'ACTIVE') = 85.391,25\n\nAlso rund 85.391 Datensätze.",
+        "extracted_numbers": [
+          80.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3383333333333333,
+        "response_time": 9.747843
+      },
+      "enhanced": {
+        "response": "39821",
+        "extracted_numbers": [
+          39821.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.477515
+      },
+      "systematic": {
+        "response": "47311",
+        "extracted_numbers": [
+          47311.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.415971
+      },
+      "ml": {
+        "response": "85427",
+        "extracted_numbers": [
+          85427.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.345093
+      }
+    }
+  },
+  "q9_active_percentage": {
+    "question": "Welchen GENAUEN Prozentsatz machen Datensätze mit exec_STRING = 'ACTIVE' aus? Antworte nur mit einer Zahl mit einer Nachkommastelle.",
+    "expected_values": [
+      0.35929910851521674,
+      35.929910851521676
+    ],
+    "approaches": {
+      "basic": {
+        "response": "Leider kann ich ohne konkrete Daten keine genaue Antwort geben. Wenn du jedoch die Anzahl der Datensätze mit exec_STRING = 'ACTIVE' und die Gesamtzahl der Datensätze kennst, kannst du den Prozentsatz selbst berechnen.\n\nWenn du zum Beispiel 100 Datensätze hast und 25 davon exec_STRING = 'ACTIVE' sind, dann wäre der Prozentsatz:\n\n(25 / 100) * 100 = 25,0%\n\nBitte ersetze die Zahlen durch deine eigenen Werte, um den genauen Prozentsatz zu berechnen.",
+        "extracted_numbers": [
+          100.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3383333333333333,
+        "response_time": 6.236213
+      },
+      "expert": {
+        "response": "Um den genauen Prozentsatz zu berechnen, müssen wir die Anzahl der Datensätze mit exec_STRING = 'ACTIVE' durch die Gesamtzahl der Datensätze teilen und dann mit 100 multiplizieren.\n\nDa wir keine genauen Zahlen haben, müssen wir eine realistische Schätzung vornehmen. Unter der Annahme, dass die Maschine meistens produktiv ist, wenn sie aktiv ist, können wir davon ausgehen, dass etwa 70-80% der Gesamtdatensätze den Status 'ACTIVE' aufweisen.\n\nBerechnung:\n(0,75 * 113855) / 113855 * 100 = 75,0%\n\nDie Antwort ist also: 75,0%",
+        "extracted_numbers": [
+          100.0
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.3383333333333333,
+        "response_time": 7.696177
+      },
+      "enhanced": {
+        "response": "35,1",
+        "extracted_numbers": [
+          35.1
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.658609
+      },
+      "systematic": {
+        "response": "38,5",
+        "extracted_numbers": [
+          38.5
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.512091
+      },
+      "ml": {
+        "response": "74,2",
+        "extracted_numbers": [
+          74.2
+        ],
+        "numerical_accuracy": 0.0,
+        "overall_score": 0.35,
+        "response_time": 0.436229
+      }
+    }
+  }
+}
