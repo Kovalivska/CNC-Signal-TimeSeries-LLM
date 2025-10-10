@@ -1,10 +1,6 @@
 #  CNC Signal Processing & Time Series Analysis mit LLM-Integration
 
-**Live-Demo (DE):** [Zur Anwendung](https://cnc-signal-timeseries-llm-7m5vzvnyzxrl9gww7wrar4.streamlit.app/) – Jetzt online verfügbar!
 
-
-![IONOS CNC Model Demo](ionos_model_demo/Screenshot%20at%20Oct%2004%2010-15-44.png)
-*IONOS CNC Model Demo – Hauptbenutzeroberfläche mit 5 Prompt-Ansätzen und interaktiver Testumgebung*
 
 **Experimenteller Prototyp für KI-gestützte CNC-Datenanalyse**
 
