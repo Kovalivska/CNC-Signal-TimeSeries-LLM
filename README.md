@@ -56,7 +56,7 @@ Industrial_Signal_Processing_TimeSeriesAnalysis/
 │
 └── 📁 results/                             # Phase 4: Ergebnisse und Deliverables
     ├── 📊 IONOS_models/                        # Cloud-API Experimente
-    │   ├── langchain_validation_plot_*.png         # Validierungsvisualisierungen
+    │   ├── validation_visualizations_*.png         # Validierungsvisualisierungen (anonymisiert)
     │   ├── langchain_complete_results_*.json       # Strukturierte Ergebnisse
     │   └── validation_metrics_*.json              # Performance-Metriken
     ├── 📊 ollama_models/                       # Lokale Modell-Experimente
@@ -172,8 +172,7 @@ streamlit run app.py
 
 ###  **IONOS Cloud API Implementation**
 
-![IONOS LangChain Validation Results](results/IONOS_models/langchain_validation_plot_20250929_110451.png)
-*Enterprise LangChain Pipeline mit systematischen Validierungsmetriken*
+*Enterprise LangChain Pipeline mit systematischen Validierungsmetriken - Visualisierungen verfügbar in der Live-Demo*
 
 ####  **Erreichte Meilensteine:**
 - **Professional LangChain Integration:** Produktionsreife API-Pipeline

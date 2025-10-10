@@ -1,8 +1,39 @@
-# Client and real production data
+# Client and real production data (generic patterns)
 data/client_*
 data/real_*
 data/*_production_*
-data/*2025*
+data/*_clean_*
+**/machine_*
+**/equipment_*
+
+# Images with client information (generic patterns)
+**/*_client_*
+**/*_real_*
+**/*_production_*
+**/*confidential*
+*validation_plot_*
+*dashboard_*_clean_*
+
+# Files with client names (common patterns)
+**/company_*
+**/client_*
+**/manufacturer_*
+**/vendor_*
+**/supplier_*
+**/*_corp*
+**/*_ltd*
+**/*_inc*
+**/*_gmbh*
+**/*_ag*
+
+# Company/location specific files (generic patterns)
+**/*_location_*
+**/*_site_*
+**/*_facility_*
+**/*_plant_*
+**/*_factory_*
+**/*_city_*
+**/*_region_*
 
 # Results with sensitive information
 results/client_*

@@ -48,7 +48,7 @@ data_and_eda/
 
 ###  Analyse-Dashboard Beispiel
 
-![CNC Maschine M1 - Fertigungsanalyse Dashboard](dashboard_M1_clean_original_names_20251001_1543.png)
+![CNC Sample Data - Manufacturing Analysis Dashboard](dashboard_sample_data_20251001_1543.png)
 
 *Grafana-Style Dashboard mit 7 Visualisierungskomponenten: Programm-Timeline, Betriebszustände, Zykluszeitverteilung, Rüstzeitverteilung, Top-Korrelationen, KPI-Karten und stündliche Produktivitätsverteilung.*
 
