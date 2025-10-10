@@ -182,7 +182,7 @@ Die Notebooks sind **chronologisch nummeriert** und dokumentieren:
 ### ⬅️ Input aus vorherigen Phasen
 
 **Von `/data_and_eda/`:**
-- 📊 Bereinigte Maschinendaten (M1_clean_original_names.xlsx)
+- 📊 Bereinigte Maschinendaten (sample_cnc_data.xlsx)
 - 🎯 Definierte Forschungsfragen
 - 📋 Automatisiertes Analyse-Template
 

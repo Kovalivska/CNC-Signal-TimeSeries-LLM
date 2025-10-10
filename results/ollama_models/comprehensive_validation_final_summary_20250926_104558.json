@@ -4,7 +4,7 @@
     "total_validation_methods": 4,
     "validation_evolution": "Fake → Real → Enhanced → Superior",
     "primary_goal": "Honest evaluation of LLM numerical and analytical capabilities",
-    "dataset": "MAZAK CNC Machine Data (113,855 records, 6 columns)",
+    "dataset": "Sample_CNC CNC Machine Data (113,855 records, 6 columns)",
     "test_approaches": [
       "Basic",
       "Expert",

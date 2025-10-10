@@ -1,12 +1,12 @@
 {
   "q1_total_records": {
-    "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+    "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
     "expected_values": [
       113855.0
     ],
     "approaches": {
       "basic": {
-        "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im MAZAK-Dataset.",
+        "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im Sample_CNC-Dataset.",
         "extracted_numbers": [],
         "numerical_accuracy": 0.0,
         "overall_score": 0.235,

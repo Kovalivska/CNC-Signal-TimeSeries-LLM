@@ -2,7 +2,7 @@
   "results": [
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "basic",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
           },
           {
             "attempt": 3,
-            "response": "Ich habe keine Informationen über das MAZAK Dataset GENAU.",
+            "response": "Ich habe keine Informationen über das Sample_CNC Dataset GENAU.",
             "numerical_accuracy": 0.0,
             "overall_score": 0.205,
             "response_time": 0.616203
@@ -49,7 +49,7 @@
     },
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "expert",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -96,7 +96,7 @@
     },
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "enhanced",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -143,7 +143,7 @@
     },
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "systematic",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -190,7 +190,7 @@
     },
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "ml",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",

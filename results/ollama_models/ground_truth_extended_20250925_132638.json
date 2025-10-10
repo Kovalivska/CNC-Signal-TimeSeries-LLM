@@ -1,6 +1,6 @@
 {
   "timestamp": "2025-09-25T13:26:38.739433",
-  "data_source": "/Users/svitlanakovalivska/Mazak/LLM_Project/M1_clean_original_names.xlsx",
+  "data_source": "/Users/svitlanakovalivska/Sample_CNC/LLM_Project/sample_cnc_data.xlsx",
   "basic_statistics": {
     "dataset_info": {
       "total_records": 113855,

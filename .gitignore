@@ -1,8 +1,53 @@
+# Client and real production data
+data/client_*
+data/real_*
+data/*_production_*
+data/*2025*
+
+# Results with sensitive information
+results/client_*
+results/*confidential*
+results/*_report_*
+
+# Logs with machine IDs or client info
+logs/
+*.log
+
+# API keys and credentials
+.env
+.env.local
+*.env
+config/*_production*
+config/client_*
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python cache
 *.pyc
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
 .DS_Store
-*.log
-.env
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Temporary files
 *.tmp
-~.docx
+~*.docx

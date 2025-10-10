@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LLM-gesteuerte MAZAK-Analyse</title>
+    <title>LLM-gesteuerte Sample_CNC-Analyse</title>
     <style>
         * {
             margin: 0;
@@ -275,7 +275,7 @@
 
         <!-- Slide 1: Projektübersicht -->
         <div class="slide active">
-            <h1>LLM-gesteuerte Analyse von MAZAK-Maschinendaten</h1>
+            <h1>LLM-gesteuerte Analyse von Sample_CNC-Maschinendaten</h1>
             <p style="font-size: 1.3em; color: #7f8c8d; margin-bottom: 40px;">Eine iterative Reise zur Validierung einer "Zero-Algorithm"-Strategie</p>
             
             <div class="challenge-box">
@@ -330,7 +330,7 @@
 
             <div class="warning-box">
                 <h3>Die ernüchternde Wahrheit</h3>
-                <p>Die Verbesserungen in den Phasen 1-3 erwiesen sich als oberflächlich. Der systematische Test in Phase 4 mit realen MAZAK-Daten (113,855 Datensätze) und komplexen analytischen Fragen offenbarte: <strong>Das llama3.2:1b Modell versagte komplett bei der Analyse.</strong></p>
+                <p>Die Verbesserungen in den Phasen 1-3 erwiesen sich als oberflächlich. Der systematische Test in Phase 4 mit realen Sample_CNC-Daten (113,855 Datensätze) und komplexen analytischen Fragen offenbarte: <strong>Das llama3.2:1b Modell versagte komplett bei der Analyse.</strong></p>
             </div>
         </div>
 
@@ -379,7 +379,7 @@
         <div class="slide">
             <h1>Phase 4: Die Realitätsprüfung</h1>
             <div class="code-snippet">
-                <strong>Notebook-Test mit realen MAZAK-Daten:</strong><br>
+                <strong>Notebook-Test mit realen Sample_CNC-Daten:</strong><br>
                 - phase2_advanced_continuation_no_chain_of_thought.ipynb<br>
                 - Modell: llama3.2:1b | Datensätze: 113,855 | Tests: 2 komplexe Fragen
             </div>
@@ -544,7 +544,7 @@
             <div class="challenge-box">
                 <h3>Sofortige Maßnahmen (Phase 1)</h3>
                 <ul>
-                    <li><strong>Datenschema-Korrektur:</strong> Mapping realer MAZAK-Spaltennamen implementieren</li>
+                    <li><strong>Datenschema-Korrektur:</strong> Mapping realer Sample_CNC-Spaltennamen implementieren</li>
                     <li><strong>Modell-Upgrade:</strong> Migration zu GPT-4o oder Claude 3.5 als Mindestanforderung</li>
                     <li><strong>Robuste Validierung:</strong> Ground-Truth-Metriken für objektive Leistungsmessung</li>
                     <li><strong>Fehlerbehandlung:</strong> Systematic handling von Datenschema-Inkompatibilitäten</li>

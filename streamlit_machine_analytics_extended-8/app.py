@@ -16,7 +16,7 @@ st.set_page_config(page_title="Machine Analytics — Extended", layout="wide")
 # =============================
 # Constants & schema
 # =============================
-DEFAULT_TZ = "Europe/Berlin"
+DEFAULT_TZ = "Europe/Central"  # Generic Central European timezone
 MACHINE_COL = "name"
 TIMESTAMP_COL = "time"
 
@@ -104,7 +104,7 @@ def iqr_bounds(s: pd.Series, k: float = 1.5):
     return q1 - k * iqr, q3 + k * iqr
 
 def assign_shift(ts: pd.Series, tz: str = DEFAULT_TZ) -> pd.Series:
-    """Map timestamps to shifts: 06–14, 14–22, 22–06 (Berlin)."""
+    """Map timestamps to shifts: 06–14, 14–22, 22–06 (Central European time)."""
     if ts.dt.tz is None:
         ts = ts.dt.tz_localize("UTC")
     local = ts.dt.tz_convert(pytz.timezone(tz))
@@ -1108,7 +1108,7 @@ if run_preset and preset:
             # Show SQL that explains the logic
             show_sql("""
 -- KPI Calculation Logic (performed in Python/Pandas):
--- 1. Assign shifts based on Berlin timezone:
+-- 1. Assign shifts based on Central European timezone:
 --    06-14: Morning shift (6 AM - 2 PM)
 --    14-22: Afternoon shift (2 PM - 10 PM) 
 --    22-06: Night shift (10 PM - 6 AM)
@@ -1127,8 +1127,8 @@ if run_preset and preset:
 -- FROM (
 --   SELECT *,
 --     CASE 
---       WHEN EXTRACT(HOUR FROM time AT TIME ZONE 'Europe/Berlin') BETWEEN 6 AND 13 THEN '06-14'
---       WHEN EXTRACT(HOUR FROM time AT TIME ZONE 'Europe/Berlin') BETWEEN 14 AND 21 THEN '14-22'
+--       WHEN EXTRACT(HOUR FROM time AT TIME ZONE 'Europe/Central') BETWEEN 6 AND 13 THEN '06-14'
+--       WHEN EXTRACT(HOUR FROM time AT TIME ZONE 'Europe/Central') BETWEEN 14 AND 21 THEN '14-22'
 --       ELSE '22-06'
 --     END as shift
 --   FROM part_events
@@ -1331,7 +1331,7 @@ if intent and intent.get("intent"):
             # Show SQL that explains the logic
             show_sql("""
 -- KPI Calculation Logic (performed in Python/Pandas):
--- 1. Assign shifts based on Berlin timezone:
+-- 1. Assign shifts based on Central European timezone:
 --    06-14: Morning shift (6 AM - 2 PM)
 --    14-22: Afternoon shift (2 PM - 10 PM) 
 --    22-06: Night shift (10 PM - 6 AM)
@@ -1350,8 +1350,8 @@ if intent and intent.get("intent"):
 -- FROM (
 --   SELECT *,
 --     CASE 
---       WHEN EXTRACT(HOUR FROM time AT TIME ZONE 'Europe/Berlin') BETWEEN 6 AND 13 THEN '06-14'
---       WHEN EXTRACT(HOUR FROM time AT TIME ZONE 'Europe/Berlin') BETWEEN 14 AND 21 THEN '14-22'
+--       WHEN EXTRACT(HOUR FROM time AT TIME ZONE 'Europe/Central') BETWEEN 6 AND 13 THEN '06-14'
+--       WHEN EXTRACT(HOUR FROM time AT TIME ZONE 'Europe/Central') BETWEEN 14 AND 21 THEN '14-22'
 --       ELSE '22-06'
 --     END as shift
 --   FROM part_events

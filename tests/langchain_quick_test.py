@@ -29,7 +29,7 @@ if __name__ == "__main__":
     print("🎯 Testing smart single number selection logic")
     
     # Initialize workflow
-    data_path = "/Users/svitlanakovalivska/CNC/LLM_Project/M1_clean_original_names.xlsx"
+    data_path = "data/sample_cnc_data.xlsx"  # Sample data for demonstration
     ionos_api_key = None
     
     try:

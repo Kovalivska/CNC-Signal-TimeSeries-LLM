@@ -2,11 +2,11 @@
   "results": [
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "basic",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
-      "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im MAZAK-Dataset.",
+      "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im Sample_CNC-Dataset.",
       "response_time": 1.648785,
       "validation_scores": {
         "numerical_accuracy": 0.0,
@@ -23,21 +23,21 @@
         "all_attempts": [
           {
             "attempt": 1,
-            "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im MAZAK-Dataset.",
+            "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im Sample_CNC-Dataset.",
             "numerical_accuracy": 0.0,
             "overall_score": 0.235,
             "response_time": 1.648785
           },
           {
             "attempt": 2,
-            "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im MAZAK-Dataset.",
+            "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im Sample_CNC-Dataset.",
             "numerical_accuracy": 0.0,
             "overall_score": 0.235,
             "response_time": 1.686693
           },
           {
             "attempt": 3,
-            "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im MAZAK-Dataset.",
+            "response": "Ich habe keine spezifischen Informationen über die genaue Anzahl der Datensätze im Sample_CNC-Dataset.",
             "numerical_accuracy": 0.0,
             "overall_score": 0.235,
             "response_time": 1.515133
@@ -47,7 +47,7 @@
     },
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "expert",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
@@ -94,7 +94,7 @@
     },
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "enhanced",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
@@ -141,7 +141,7 @@
     },
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "systematic",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",
@@ -188,7 +188,7 @@
     },
     {
       "question_id": "q1_total_records",
-      "question": "Wie viele Datensätze enthält das MAZAK Dataset GENAU? Antworte nur mit der Zahl.",
+      "question": "Wie viele Datensätze enthält das Sample_CNC Dataset GENAU? Antworte nur mit der Zahl.",
       "approach": "ml",
       "model": "ionos",
       "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-FP8",

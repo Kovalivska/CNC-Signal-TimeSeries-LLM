@@ -77,9 +77,9 @@ Industrial_Signal_Processing_TimeSeriesAnalysis/
 Umfassende Analyse der CNC-Maschinendaten zur Identifikation von Mustern, Anomalien und Optimierungspotenzialen.
 
 #### **Durchgeführte Analysen:**
-- **3 CNC-Maschinen analysiert** (CNC_1, CNC_2, CNC_3)
-- **Zeitraum:** 15. August 2025 - Vollständiger Produktionstag
-- **Datenpunkte:** >100.000 kombinierte Messungen
+- **3 CNC-Maschinen analysiert** (anonymisierte Beispieldaten)
+- **Zeitraum:** Vollständiger Produktionstag für Methodikvalidierung
+- **Datenpunkte:** >100.000 synthetische/anonymisierte Messungen
 - **Key Metrics:** Zykluszeiten, Rüstzeiten, Auslastung, Qualitätsparameter
 
 ####  **Erkenntnisse:**
@@ -268,14 +268,14 @@ streamlit run app.py
 #### **Bewiesene Innovation:**
 - **Erster erfolgreicher CNC-LLM-Prototyp** in der dokumentierten Literatur
 - **Methodische Innovation** durch Hybrid-Ansatz (Ollama ↔ IONOS)
-- **Praktische Relevanz** mit quantifizierten Verbesserungen (11% → 100% Accuracy)
+- **Praktische Relevanz** mit demonstriertem Verbesserungspotential (Baseline → optimierte Ansätze)
 - **Wissenschaftliche Rigorosität** durch systematische Validierung
 
 #### **Strategischer Wert:**
 - **Research Foundation:** Solide Basis für weitere wissenschaftliche Arbeiten
 - **Industrial Relevance:** Direkter Transfer in produktive Fertigungsumgebungen
 - **Global Impact:** Methodologie anwendbar auf internationale Manufacturing-Systeme
-- **Proven ROI:** Demonstrierte Effizienzsteigerungen und Kosteneinsparungen
+- **Potential ROI:** Demonstrierte Effizienzsteigerungen und Kosteneinsparungspotential
 
 ---
 
@@ -284,11 +284,19 @@ streamlit run app.py
 ### **Strategisches Achievement:**
 **Vollständiger Research-to-Production-Zyklus**: Von experimenteller Ollama-Forschung zu produktionsreifer IONOS-Implementation in nur 4 Tagen - ein Rekord für LLM-Manufacturing-Integration.
 
-### **Performance Evolution:**
-- **LLM Accuracy:** 11% → 100% durch systematische Prompt-Optimierung
-- **Technology Transfer:** Erfolgreiche Ollama→IONOS Innovation Pipeline
-- **Cultural Adaptation:** Deutsche Fertigungsstandards erfolgreich implementiert
-- **Quality Framework:** Triple Testing + Automated Validation etabliert
+### **Technische Ergebnisse & Potential:**
+
+**Prototype Testing:**
+- **LLM Performance:** Tests zeigten Verbesserungspotential von Baseline ~11% auf bis zu 100% bei Validierungsdatensätzen
+- **Technology Transfer:** Erfolgreiche Entwicklung einer Ollama→IONOS Innovation Pipeline
+- **Cultural Adaptation:** Deutsche Zahlenformate und Fertigungsstandards erfolgreich adaptiert
+- **Quality Framework:** Triple Testing + Automated Validation Framework etabliert
+
+**Industrielles Potential:**
+Basierend auf Tests und ähnlichen Implementierungen zeigt dieser Ansatz Potential für:
+- Optimierung von Maschinenlaufzeiten durch Früherkennung
+- Reduzierung ungeplanter Ausfallzeiten
+- Verbesserung der Produktionseffizienz
 
 ### **Empfehlungen für die Industrie:**
 1. **Hybrid Strategy:** Ollama für R&D, IONOS für Production-Deployment
@@ -307,3 +315,45 @@ streamlit run app.py
 * Innovation through Intelligence - KI-gestützte Fertigungsanalytik der nächsten Generation*
 
 **© 2025 Industrial Signal Processing & Time Series Analysis - LLM Innovation Project**
+
+---
+
+## ⚠️ Wichtiger Disclaimer
+
+**Forschungsprototyp:** Dieses Repository enthält einen Forschungsprototyp, entwickelt während eines Data Science Praktikums bei Data Coffee GmbH (Juni-September 2025).
+
+**Daten & Vertraulichkeit:**
+- Alle gezeigten Daten sind synthetisch oder anonymisiert
+- Echte Klienteninformationen wurden aus Vertraulichkeitsgründen entfernt
+- Maschinenbezüge sind generische Beispiele
+
+**Performance-Metriken:**
+Gezeigte Ergebnisse basieren auf:
+- Prototyp-Tests mit Validierungsdatensätzen
+- Industrie-Benchmarks aus der Literatur
+- Ähnlichen Systemimplementierungen
+- Experteneinschätzungen
+
+**Hinweis zu Genauigkeitsangaben:**
+- "11% → 100%" bezieht sich auf Genauigkeit bei Testszenarios im Vergleich Baseline- vs. optimierte LLM-Integration
+- Tatsächliche Produktionsergebnisse hängen von spezifischen Anwendungsfällen, Datenqualität, Maschinentyp und Implementierung ab
+
+**Zweck:**
+Dieses Repository demonstriert:
+✅ Technische Methodologie und Architektur  
+✅ Entwicklungsansatz und Fähigkeiten  
+✅ Potentielle Anwendungen von LLM in industriellen Kontexten
+
+Dieses Repository enthält NICHT:
+❌ Echte Klientendaten oder -implementierungen  
+❌ Spezifische Maschinenkonfigurationen  
+❌ Vertrauliche Geschäftsinformationen
+
+**Produktionsnutzung:**
+Echter Einsatz erfordert Anpassung an spezifische industrielle Umgebungen und Anwendungsfälle.
+
+**Kontakt:** kovalivska@gmail.com  
+
+---
+
+*Zuletzt aktualisiert: Oktober 2025*

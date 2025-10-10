@@ -24,7 +24,7 @@ class SuperQuickTest(CNCValidationWorkflow):
 if __name__ == "__main__":
     print("⚡ SUPER QUICK TEST - Fixed Number Selection Logic")
     
-    data_path = "/Users/svitlanakovalivska/CNC/LLM_Project/M1_clean_original_names.xlsx"
+    data_path = "data/sample_cnc_data.xlsx"  # Sample data for demonstration
     
     try:
         with open("/Users/svitlanakovalivska/CNC/LLM_Project/config/ionos_token.txt", 'r') as f:
